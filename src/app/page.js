@@ -1,16 +1,14 @@
 'use client'
-import ImageMapper from 'react-img-mapper';
-import areas from "/public/map.json";
 
 export default function Home() {
-  const MAP = {
-    name: 'my-map',
-    areas: areas,
-  };
-
   return (
     <div>
-      <img src=""></img>
+    <map name="foodmap">
+      <area alt="drink" title="drink" href="google.com" coords="462,292,486,335" shape="rect"/>
+      <area alt="cookies" title="cookies" href="google.com" coords="572,323,19" shape="circle"/>
+      <area alt="curry" title="curry" href="google.com" coords="882,267,22" shape="circle"/>
+    </map>
+      <img useMap="#foodmap" className="home" src="home.jpg"></img>
     </div>
 );
 }
