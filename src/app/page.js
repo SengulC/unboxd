@@ -9,17 +9,8 @@ export default function Home() {
   };
 
   return (
-    // <div>
-    //   <div>This is correct and should work because a div is really good for this task. </div>
-    <ImageMapper 
-      width={500} 
-      height={500} 
-      src={"/example.jpg"} 
-      map={MAP}
-      responsive
-      fillColor={"rgba(71, 131, 230, 0.70)"}
-      strokeColor={"rgba(71, 131, 230)"}
-    />
-    // </div>
+    <div>
+      <img src=""></img>
+    </div>
 );
 }
