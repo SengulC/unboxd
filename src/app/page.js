@@ -18,7 +18,7 @@ export default function Home() {
             src={'home.jpg'}
             active={true}
             onClick={(e) => {
-              console.log("Hello!");
+              console.log(`i am ${e.id} and ill lead u to ${e.title}`);
             }}
             // responsive
           />

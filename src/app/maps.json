@@ -1,23 +1,42 @@
 [
     {
         "_comment": {
-            "title": "sample",
+            "id": "obj",
+            "title": "room",
             "shape": "circle/rect/poly",
             "fillColor": "#eab54d4d",
             "strokeColor": "black",
             "coords": [0,0,0]
         },
-        "title": "cookies",
+        "id": "cookies",
+        "title": "kitchen",
         "shape": "circle",
         "fillColor": "#eab54d4d",
         "strokeColor": "black",
         "coords": [572,323,17]
     },
     {
-        "title": "tv",
+        "id": "tv",
+        "title": "cinema",
         "shape": "rect",
         "fillColor": "#eab54d4d",
         "strokeColor": "black",
         "coords": [438,34,628,144]
+    },
+    {
+        "id": "remote",
+        "title": "cinema",
+        "shape": "poly",
+        "fillColor": "#eab54d4d",
+        "strokeColor": "black",
+        "coords": [213,482,256,478,260,497,215,503]
+    },
+    {
+        "id": "tapes",
+        "title": "cinema",
+        "shape": "rect",
+        "fillColor": "#eab54d4d",
+        "strokeColor": "black",
+        "coords": [123,118,160,159]
     }
 ]
