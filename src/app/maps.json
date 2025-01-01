@@ -1,0 +1,23 @@
+[
+    {
+        "_comment": {
+            "title": "sample",
+            "shape": "circle/rect/poly",
+            "fillColor": "#eab54d4d",
+            "strokeColor": "black",
+            "coords": [0,0,0]
+        },
+        "title": "cookies",
+        "shape": "circle",
+        "fillColor": "#eab54d4d",
+        "strokeColor": "black",
+        "coords": [572,323,17]
+    },
+    {
+        "title": "tv",
+        "shape": "rect",
+        "fillColor": "#eab54d4d",
+        "strokeColor": "black",
+        "coords": [438,34,628,144]
+    }
+]
