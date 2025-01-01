@@ -1,14 +1,17 @@
 "use client"
 import ImageMapper from "react-img-mapper";
 import areasFile from "/public/maps.json"
+import { useRouter } from 'next/navigation'
 
 export default function Home() {
+  const router = useRouter();
   const areas = areasFile;
   // const areas = [
   //   { id: "1", shape: "circle", coords: [150, 150, 50] },
   //   { id: "2", shape: "rect", coords: [300, 200, 400, 300] }
   // ];
   return (
+    <div>
     <div className="homeContainer">
       <ImageMapper className="imageMap"
             map={{
@@ -19,8 +22,10 @@ export default function Home() {
             active={true}
             onClick={(e) => {
               console.log(`i am ${e.id} and ill lead u to ${e.title}`);
+              router.push('/rooms/cinema');
             }}
           />
+    </div>
     </div>
   );
 }
