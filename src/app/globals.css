@@ -1,0 +1,10 @@
+body {
+  background-image: url("/basewash.png");
+}
+
+.homeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+}

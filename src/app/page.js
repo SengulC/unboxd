@@ -1,6 +1,6 @@
 "use client"
 import ImageMapper from "react-img-mapper";
-import areasFile from "./maps.json"
+import areasFile from "/public/maps.json"
 
 export default function Home() {
   const areas = areasFile;
@@ -9,8 +9,8 @@ export default function Home() {
   //   { id: "2", shape: "rect", coords: [300, 200, 400, 300] }
   // ];
   return (
-    <div>
-      <ImageMapper
+    <div className="homeContainer">
+      <ImageMapper className="imageMap"
             map={{
                 name:"my-map", 
                 areas: areas
@@ -20,7 +20,6 @@ export default function Home() {
             onClick={(e) => {
               console.log(`i am ${e.id} and ill lead u to ${e.title}`);
             }}
-            // responsive
           />
     </div>
   );
