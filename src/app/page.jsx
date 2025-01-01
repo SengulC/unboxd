@@ -6,10 +6,7 @@ import { useRouter } from 'next/navigation'
 export default function Home() {
   const router = useRouter();
   const areas = areasFile;
-  // const areas = [
-  //   { id: "1", shape: "circle", coords: [150, 150, 50] },
-  //   { id: "2", shape: "rect", coords: [300, 200, 400, 300] }
-  // ];
+
   return (
     <div>
     <div className="homeContainer">
