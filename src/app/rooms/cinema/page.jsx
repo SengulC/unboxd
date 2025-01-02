@@ -3,10 +3,10 @@ import React from 'react'
 
 export default function Cinema() {
   return (
-
-    <div>
+    <body className='cinema'>
         <Link href="/"> &lt; Home </Link>
         <h1>Cinema</h1>
-    </div>
+        <div></div>
+    </body>
   )
 }

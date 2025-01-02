@@ -1,8 +1,16 @@
-body {
-  background-image: url("/basewash.png");
+html, body, #__next { height: 100%; }
+
+.home {
+  /* background-image: url("/basewash.png" ); */
+  background-color: #ABA3BB;
 }
 
-.homeContainer {
+.cinema {
+  background-color: black;
+  color: white;
+}
+
+.home {
   display: flex;
   justify-content: center;
   align-items: center;

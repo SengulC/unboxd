@@ -8,8 +8,7 @@ export default function Home() {
   const areas = areasFile;
 
   return (
-    <div>
-    <div className="homeContainer">
+    <body className="home">
       <ImageMapper className="imageMap"
             map={{
                 name:"my-map", 
@@ -22,8 +21,7 @@ export default function Home() {
               router.push('/rooms/cinema');
             }}
           />
-    </div>
-    </div>
+    </body>
   );
 }
 
