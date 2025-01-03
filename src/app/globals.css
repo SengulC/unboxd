@@ -16,14 +16,6 @@ h1 {
   grid-template-columns: repeat(4, 1fr);
 }
 
-.home {
-  /* background-image: url("/basewash.png" ); */
-  background-color: black;
-  z-index: -2;
-  position: relative;
-  overflow: hidden;
-}
-
 .cinema {
   background-color: black;
   z-index: -2;
@@ -32,10 +24,12 @@ h1 {
 }
 
 .home {
+  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 2em;
+  /* margin-top: 2em; */
+  overflow: hidden;
 }
 
 .fuzzy-overlay {
