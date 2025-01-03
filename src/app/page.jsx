@@ -21,6 +21,7 @@ export default function Home() {
               router.push('/rooms/cinema');
             }}
           />
+      <div className="fuzzy-overlay"></div>
     </body>
   );
 }
