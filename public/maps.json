@@ -4,44 +4,44 @@
             "id": "obj",
             "title": "room",
             "shape": "circle/rect/poly",
-            "fillColor": "rgba(255,255,0,0.15)",
+            "fillColor": "rgba(0,0,0,0)",
             "strokeColor": "rgba(0,0,0,0)",
-            "lineWidth": 3,
+            "lineWidth": 2.5,
             "coords": [0,0,0]
         },
         "id": "cookies",
         "title": "kitchen",
         "shape": "circle",
-        "fillColor": "rgba(255,255,0,0.15)",
+        "fillColor": "rgba(0,0,0,0)",
         "strokeColor": "rgba(0,0,0,0)",
-        "lineWidth": 3,
+        "lineWidth": 2.5,
         "coords": [572,323,17]
     },
     {
         "id": "tv",
         "title": "cinema",
         "shape": "rect",
-        "fillColor": "rgba(255,255,0,0.15)",
+        "fillColor": "rgba(0,0,0,0)",
         "strokeColor": "rgba(0,0,0,0)",
-        "lineWidth": 3,
+        "lineWidth": 2.5,
         "coords": [438,34,628,144]
     },
     {
         "id": "remote",
         "title": "cinema",
         "shape": "poly",
-        "fillColor": "rgba(255,255,0,0.15)",
+        "fillColor": "rgba(0,0,0,0)",
         "strokeColor": "rgba(0,0,0,0)",
-        "lineWidth": 3,
+        "lineWidth": 2.5,
         "coords": [213,482,256,478,260,497,215,503]
     },
     {
         "id": "tapes",
         "title": "cinema",
         "shape": "rect",
-        "fillColor": "rgba(255,255,255,0.15)",
+        "fillColor": "rgba0,0,0,015)",
         "strokeColor": "rgba(0,0,0,0)",
-        "lineWidth": 3,
+        "lineWidth": 2.5,
         "coords": [123,118,160,159]
     }
 ]

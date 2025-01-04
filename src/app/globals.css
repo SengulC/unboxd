@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Rubik+Glitch&family=Schoolbell&display=swap');
-
 html, body, #__next { height: 100%; }
 
 h1 {
@@ -21,6 +20,18 @@ h1 {
   z-index: -2;
   color: white;
   padding: 2em;
+}
+
+/* .hover {
+  color: white;
+} */
+
+.img-mapper-map {
+  cursor: help;
+}
+
+.img-mapper-area-highlighted {
+  cursor: wait;
 }
 
 .home {
