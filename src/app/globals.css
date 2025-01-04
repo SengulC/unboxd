@@ -6,13 +6,19 @@ h1 {
   font-size: 6em;
 }
 
+h2 {
+  font-family: "Rubik Glitch", serif;
+  font-size: x-large;
+}
+
 * {
   font-family: "Schoolbell", serif;
 }
 
 .cinemaGrid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(10, 1fr);
+  gap: 2em;
 }
 
 .cinema {
@@ -20,6 +26,7 @@ h1 {
   z-index: -2;
   color: white;
   padding: 2em;
+  margin: 2em;
 }
 
 /* .hover {
@@ -46,7 +53,7 @@ h1 {
 .fuzzy-overlay {
   position: absolute;
   inset: -200%;
-  background-image: url("/noise.png");
+  background-image: url("/background/noise.png");
   opacity: 15%;
   z-index: -1;
 
@@ -73,4 +80,9 @@ h1 {
 
   z-index: 0;
   position: relative; */
+}
+
+.moviePoster {
+  max-width: 10em;
+  height: auto;
 }

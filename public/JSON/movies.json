@@ -1,0 +1,22 @@
+[
+
+    {
+        "_comment": {
+            "title": "Movie",
+            "director": "Mr Sir",
+            "stars": 5,
+            "synopsis": "A description.",
+            "review": "My thoughts.",
+            "image": "/cinema/ExactFileName.ext",
+            "tags": ["favorites", "comedy", "gay", "rewatched"]
+        },
+        "title": "Bottoms",
+            "director": "Emma Seligman",
+            "stars": "1 2 3 4 5",
+            "synopsis": "A gay movie.",
+            "review": "A very funny gay movie.",
+            "image": "/cinema/bottoms.jpg",
+            "tags": ["gay", "comedy", "favorites"]
+    }
+
+]

@@ -1,6 +1,6 @@
 "use client"
 import ImageMapper from "react-img-mapper";
-import areasFile from "/public/maps.json"
+import areasFile from "/public/JSON/imageMapCoords.json"
 import { useRouter } from 'next/navigation'
 
 export default function Home() {
@@ -14,7 +14,7 @@ export default function Home() {
                 name:"my-map", 
                 areas: areas
                 }}
-            src={'home.jpg'}
+            src={'background/home.jpg'}
             active={true}
             onClick={(e) => {
               console.log(`i am ${e.id} and ill lead u to ${e.title}`);
