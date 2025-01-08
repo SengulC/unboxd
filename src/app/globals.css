@@ -1,20 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Rubik+Glitch&family=Schoolbell&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
 
 html, body, #__next { height: 100%; }
 
 /* FONTS AND HEADERS */
 * {
-  font-family: "Schoolbell", serif;
+  font-family: "Sour Gummy", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
 }
 
 h1 {
-  font-family: "Rubik Glitch", serif;
-  font-size: 6em;
+  font-family: "Jacquard 12", serif;
+  font-size: 4em;
 }
 
 h2 {
-  font-family: "Rubik Glitch", serif;
+  font-family: "Jacquard 12", serif;
   font-size: x-large;
+}
+
+h3 {
+  font-family: "Sour Gummy", serif;
+  font-optical-sizing: auto;
+  font-size: x-large;
+}
+
+.link {
+  font-size: x-large;
+  color: #953B11;
+}
+
+a {
+  color: #953B11;
+}
+
+a:hover {
+  color: #b74a18;
 }
 
 /* CINEMA */
@@ -23,19 +45,20 @@ h2 {
   background-color: black;
   z-index: -2;
   color: white;
-  padding: 2em;
+  padding: 3em;
   margin: 2em;
 }
 
 .cinemaGrid {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
-  gap: 2em;
+  column-gap: 0em;
+  row-gap: 2em;
 }
 
 .moviePoster {
-  max-width: 10em;
-  height: auto;
+  height: 20em;
+  width: auto;
 }
 
 /* MOVIEPAGE */
@@ -43,14 +66,34 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 3fr;
   gap: 5em;
+  padding: 3em;
 }
-/* 
-.moviePoster > .moviePageImg {
-  min-height: 100em;
-} */
+
+.moviePageImg > .moviePoster {
+  height: 30em;
+  width: auto;
+}
 
 .moviePageData {
+  justify-content: center;
+  text-align: center;
+}
 
+#synopsis {
+  font-style: italic;
+}
+
+#tags {
+  list-style: none;
+  padding-left: 0;
+  font-style: italic;
+  font-weight: 800;
+  color:#953B11;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.5em;
 }
 
 /* HOMEPAGE */

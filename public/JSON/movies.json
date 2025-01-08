@@ -1,20 +1,32 @@
-{
+{  
+    "_comment": {
+        "allTags": ["gay", "comedy", "favorites", "needle-drop", "romance", "cinema!tography"]
+    },
     "Bottoms": {
         "title": "Bottoms",
         "director": "Emma Seligman",
-        "stars": "1 2 3 4 5",
-        "synopsis": "A gay movie.",
-        "review": "A very funny gay movie.",
+        "stars": 5,
+        "synopsis": "Unpopular best friends PJ and Josie start a high school fight club to meet girls and lose their virginity. They soon find themselves in over their heads when the most popular students start beating each other up in the name of self-defense.",
+        "review": "One of the funniest, if not THE funniest movie I've ever seen. And I waited a long time for this to come out #beenheresincethestart. Love Rachel Sennot, Emma Seligman, Ayo Edebiri, I'll eat up anything they'll make, direct, produce or star in!! From Shiva Baby to Bottoms, what a track record. Still waiting for the sequel Tops. There are some imperfections and ADR-annoyances but what the movie lacks in perfect editing it more than makes up in needle drops.",
         "image": "/cinema/bottoms.jpg",
-        "tags": ["gay", "comedy", "favorites"]
+        "tags": ["gay", "comedy", "favorites", "needle-drop"]
     },
     "Bones and All": {
         "title": "Bones and All",
         "director": "Luca Guadagnino",
-        "stars": "1 2 3 4 5",
-        "synopsis": "A gay movie.",
-        "review": "A very sad gay movie.",
+        "stars": 5,
+        "synopsis": "Love blossoms between a young woman on the margins of society and a disenfranchised drifter as they embark on a 3,000-mile odyssey through the backroads of America. However, despite their best efforts, all roads lead back to their terrifying pasts and a final stand that will determine whether their love can survive their differences.",
+        "review": "Although the tale of a gruesome couple, unravelling Maren and Lee's story (and their victims) does more damage to the heart than the stomach. A beautiful coming-of-age love story with even more beautiful cinematography accompanied by the most beautiful couple. Grossly lacking Ethel Cain in the score though.",
         "image": "/cinema/bonesandall.jpg",
-        "tags": ["gay", "comedy", "favorites"]
+        "tags": ["romance", "favorites", "cinema!tography"]
+    },
+    "I Saw the TV Glow": {
+        "title": "I Saw the TV Glow",
+        "director": "Jane Schoenbrun",
+        "stars": 5,
+        "synopsis": "Teenager Owen is just trying to make it through life in the suburbs when his classmate Maddy introduces him to a mysterious late-night TV show — a vision of a supernatural world beneath their own. In the pale glow of the television, Owen’s view of reality begins to crack.",
+        "review": "Beautiful cinematography. Insanely immersive, one of those movies that you need to sit with and listen to the soundtrack for a day or two.... or a week or two... I think it's almost been a month.",
+        "image": "/cinema/isawthetvglow.jpg",
+        "tags": ["gay", "insanely-immersive", "favorites", "needle-drop", "cinema!tography"]
     }
 }

@@ -14,7 +14,7 @@ export default function Home() {
                 name:"my-map", 
                 areas: areas
                 }}
-            src={'background/home.jpg'}
+            src={'background/home2.png'}
             active={true}
             onClick={(e) => {
               router.push('/rooms/cinema');
@@ -24,12 +24,3 @@ export default function Home() {
     </body>
   );
 }
-
-    // <div>
-    // <map name="foodmap">
-    //   <area alt="drink" title="drink" href="https://stormboard.vercel.app/" target="_blank" coords="462,292,486,335" shape="rect"/>
-    //   <area alt="cookies" title="cookies" href="https://stormboard.vercel.app/" target="_blank" coords="572,323,19" shape="circle"/>
-    //   <area alt="curry" title="curry" href="https://stormboard.vercel.app/" target="_blank" coords="882,267,22" shape="circle"/>
-    // </map>
-    //   <img useMap="#foodmap" className="home" src="home.jpg"></img>
-    // </div>
