@@ -1,6 +1,21 @@
-{  
-    "_comment": {
-        "allTags": ["gay", "comedy", "favorites", "needle-drop", "romance", "cinema!tography"]
+{   
+    "Arcane": {
+        "title": "Arcane",
+        "director": "Christian Linke, Alex Yee",
+        "stars": 5,
+        "synopsis": "Amid the stark discord of twin cities Piltover and Zaun, two sisters fight on rival sides of a war between magic technologies and clashing convictions.",
+        "review": "Oh my god, amazing. Who would've thought League of Legends would've provided the lore for one of the best animated shows to ever exist. Or just shows in general. Redefined TV for me, some of the greatest implementations of 'show not tell' in recent TV, and with the abundance of spoon-feeding streaming shows, this was such a gem. Needless to say that it has impeccable animation, and such a creative approach to characterization that it almost made me re-install Maya. Great character development, and deterioration when called for - perfection.",
+        "image": "/cinema/arcane.jpg",
+        "tags": ["tv", "favorites", "world-building", "cinema!tography", "insanely-immersive"]
+    },
+    "The Bear": {
+        "title": "The Bear",
+        "director": "Christopher Storer, Joanna Calo",
+        "stars": 5,
+        "synopsis": "Carmen Berzatto, a brilliant young chef from the fine-dining world is forced to return home to run his local family sandwich shop - the Original Beef of Chicagoland - after a heartbreaking death in his family. A world away from what he's used to, Carmy must balance the soul-crushing reality of trading in Michelin star restaurants for the small 'business' kitchen filled with strong-willed and obstinate staff and his strained familial relationships, all while grappling with the impact of his brother's suicide.",
+        "review": "My favorite show in recent times. I came across it randomly in my 2nd year of university and the sincere approach to a chef's storyline and film-level cinematography captivated me. I've rewatched it like 2 times now and some of my favorite episodes are below.",
+        "image": "/cinema/thebear.jpg",
+        "tags": ["tv", "favorites", "cinema!tography"]
     },
     "Bottoms": {
         "title": "Bottoms",
@@ -9,7 +24,7 @@
         "synopsis": "Unpopular best friends PJ and Josie start a high school fight club to meet girls and lose their virginity. They soon find themselves in over their heads when the most popular students start beating each other up in the name of self-defense.",
         "review": "One of the funniest, if not THE funniest movie I've ever seen. And I waited a long time for this to come out #beenheresincethestart. Love Rachel Sennot, Emma Seligman, Ayo Edebiri, I'll eat up anything they'll make, direct, produce or star in!! From Shiva Baby to Bottoms, what a track record. Still waiting for the sequel Tops. There are some imperfections and ADR-annoyances but what the movie lacks in perfect editing it more than makes up in needle drops.",
         "image": "/cinema/bottoms.jpg",
-        "tags": ["gay", "comedy", "favorites", "needle-drop"]
+        "tags": ["film", "comedy", "favorites", "needle-drop"]
     },
     "Bones and All": {
         "title": "Bones and All",
@@ -18,7 +33,7 @@
         "synopsis": "Love blossoms between a young woman on the margins of society and a disenfranchised drifter as they embark on a 3,000-mile odyssey through the backroads of America. However, despite their best efforts, all roads lead back to their terrifying pasts and a final stand that will determine whether their love can survive their differences.",
         "review": "Although the tale of a gruesome couple, unravelling Maren and Lee's story (and their victims) does more damage to the heart than the stomach. A beautiful coming-of-age love story with even more beautiful cinematography accompanied by the most beautiful couple. Grossly lacking Ethel Cain in the score though.",
         "image": "/cinema/bonesandall.jpg",
-        "tags": ["romance", "favorites", "cinema!tography"]
+        "tags": ["film", "romance", "favorites", "cinema!tography"]
     },
     "I Saw the TV Glow": {
         "title": "I Saw the TV Glow",
@@ -27,6 +42,42 @@
         "synopsis": "Teenager Owen is just trying to make it through life in the suburbs when his classmate Maddy introduces him to a mysterious late-night TV show — a vision of a supernatural world beneath their own. In the pale glow of the television, Owen’s view of reality begins to crack.",
         "review": "Beautiful cinematography. Insanely immersive, one of those movies that you need to sit with and listen to the soundtrack for a day or two.... or a week or two... I think it's almost been a month.",
         "image": "/cinema/isawthetvglow.jpg",
-        "tags": ["gay", "insanely-immersive", "favorites", "needle-drop", "cinema!tography"]
+        "tags": ["film", "insanely-immersive", "favorites", "needle-drop", "cinema!tography"]
+    },
+    "Avatar: The Last Airbender": {
+        "title": "Avatar: The Last Airbender",
+        "director": "Michael Dante DiMartino, Bryan Konietzko",
+        "stars": 5,
+        "synopsis": "Four elemental nations are at war with each other and only the Avatar, master of all four elements, can restore peace. The new Avatar comes in the form of Aang who strives to fulfil his destiny.",
+        "review": "One of the OGs. So so ahead of its time, will never get sick of the world and lore of Avatar. No live action or ATLA rip off can ever replicate what they did with this one! Mandatory viewing for my future children for sure.",
+        "image": "/cinema/atla.jpg",
+        "tags": ["tv", "favorites", "world-building"]
+    },
+    "Alice in Borderland": {
+        "title": "Alice in Borderland",
+        "director": "Shinsuke Sato",
+        "stars": 4,
+        "synopsis": "Obsessed gamer Arisu suddenly finds himself in a strange, emptied-out version of Tokyo in which he and his friends must compete in dangerous games in order to survive.",
+        "review": "Need to come back after season 3 and add on to this review as I've forgotten how I truly feel about this show but I remember being really really uncomfortable in some of the games in season 2. Acting and world building is insane. Heavily underrated in my opinion.",
+        "image": "/cinema/alice.jpg",
+        "tags": ["tv", "world-building"]
+    },
+    "Yellowjackets": {
+        "title": "Yellowjackets",
+        "director": "Ashley Lyle, Bart Nickerson",
+        "stars": 4,
+        "synopsis": "A team of girls' soccer players travelling to Seattle face a tragedy when their plane crashes in the Ontario wilderness. While they struggle to survive the harsh conditions, their sanity slips away.",
+        "review": "Really good for a cable show. They do the time switching and having you care for both the younger and older versions of the characters pretty well. It helps that the acting and casting is amazing, and most characters are incredibly interesting.",
+        "image": "/cinema/yellowjackets.jpg",
+        "tags": ["tv"]
+    },
+    "The Boys": {
+        "title": "The Boys",
+        "director": "-",
+        "stars": 4,
+        "synopsis": "Superheroes are often as popular as celebrities, as influential as politicians, and sometimes even as revered as gods. But that's when they're using their powers for good. What happens when the heroes go rogue and start abusing their powers? When it's the powerless against the super powerful, the Boys head out on a heroic quest to expose the truth about the Seven and Vought.",
+        "review": "An insane but absolutely needed mockery of Marvel (and other things).",
+        "image": "/cinema/theboys.jpg",
+        "tags": ["tv", "comedy", "satire"]
     }
 }

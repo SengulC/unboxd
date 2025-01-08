@@ -6,7 +6,7 @@ import { useRouter } from 'next/navigation'
 export function MoviePoster({movieTitle, src}) {
     const router = useRouter(); 
     return (
-    <>
+    <div className='MoviePoster'>
         <img 
             onClick={(e)=>router.push(
             `/rooms/cinema/movie?title=${movieTitle}`
@@ -14,6 +14,6 @@ export function MoviePoster({movieTitle, src}) {
             className='moviePoster' 
             src={src}>
         </img><br/>
-    </>
+    </div>
     )
 }

@@ -3,10 +3,10 @@
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import moviesData from "/public/JSON/movies.json";
-import { MoviePoster } from "./movie.jsx";
+import { MoviePoster } from "./Movie.jsx";
 
 export default function Cinema() {
-  const [movies, setMovies] = useState([]);
+  const [movies, setMovies] = useState(null);
 
   useEffect(() => {
     const movieElements = Object.values(moviesData).map(data => (

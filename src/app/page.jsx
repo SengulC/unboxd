@@ -2,6 +2,7 @@
 import ImageMapper from "react-img-mapper";
 import areasFile from "/public/JSON/imageMapCoords.json"
 import { useRouter } from 'next/navigation'
+import Link from "next/link";
 
 export default function Home() {
   const router = useRouter();
@@ -21,6 +22,7 @@ export default function Home() {
             }}
           />
       <div className="fuzzy-overlay"></div>
+      <Link id="creditsLink" className="link" href="/about/me"> ? </Link>
     </body>
   );
 }
