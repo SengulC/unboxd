@@ -10,7 +10,7 @@ export default function Cinema() {
 
   useEffect(() => {
     const movieElements = Object.values(moviesData).map(data => (
-      <MoviePoster key={data.title} movieTitle={data.title} src={data.image} />
+      <MoviePoster key={data.title} movieTitle={data.title} src={data.image}/>
     ));
     setMovies(movieElements);
   }, []);

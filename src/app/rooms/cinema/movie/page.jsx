@@ -6,14 +6,23 @@ import moviesData from "/public/JSON/movies.json";
 
 export default function Movie() {
   const searchParams = useSearchParams();
-  const [movieName, setMovieName] = useState("");
+  const [movieName, setMovieName] = useState("Unknown");
   const [movieData, setMovieData] = useState({});
 
   useEffect(() => {
-    setMovieName(searchParams.get('title'));
-    setMovieData(moviesData[movieName]);
-    console.log(movieName);
+    const title = searchParams.get('title');
+    if (title) {
+      setMovieName(title);
+    }
   }, [searchParams]);
+
+  useEffect(() => {
+    if (movieName && moviesData[movieName]) {
+      setMovieData(moviesData[movieName]);
+    } else {
+      setMovieData({}); // Reset if movieName is invalid
+    }
+  }, [movieName]);
 
   return (
     <body className='cinema'>
