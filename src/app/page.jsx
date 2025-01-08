@@ -17,7 +17,6 @@ export default function Home() {
             src={'background/home.jpg'}
             active={true}
             onClick={(e) => {
-              console.log(`i am ${e.id} and ill lead u to ${e.title}`);
               router.push('/rooms/cinema');
             }}
           />
