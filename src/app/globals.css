@@ -38,6 +38,21 @@ h2 {
   height: auto;
 }
 
+/* MOVIEPAGE */
+.moviePage {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 5em;
+}
+/* 
+.moviePoster > .moviePageImg {
+  min-height: 100em;
+} */
+
+.moviePageData {
+
+}
+
 /* HOMEPAGE */
 
 .home {
