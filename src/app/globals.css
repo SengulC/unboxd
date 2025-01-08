@@ -71,9 +71,14 @@ a:hover {
 .moviePoster {
   height: 20em;
   width: auto;
-  border: black;
+  /* border: 0.1em solid rgb(67, 31, 25); */
+  border-radius: 0.3em;
   box-shadow: rgba(255,120,100, 0.4) 5px 5px, rgba(255,120,100, 0.3) 10px 10px, rgba(255,120,100, 0.2) 15px 15px, rgba(255,120,100, 0.1) 20px 20px, rgba(255,120,100, 0.05) 25px 25px;
 }
+
+img.moviePoster:hover {
+  cursor: pointer;
+} 
 
 /* MOVIEPAGE */
 .moviePage {
@@ -115,6 +120,7 @@ a:hover {
 #creditsLink {
   position: relative;
   margin-top: -500px;
+  text-decoration: none;
   /* negative value of footer height */
   height: 180px;
   clear: both;
@@ -123,7 +129,7 @@ a:hover {
 
 .aboutme {
   margin-top: 2em;
-  font-size: x-large;
+  /* font-size: large; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -133,7 +139,7 @@ div.aboutme > img {
   float: left;
 }
 
-div.aboutme > p {
+div.aboutme > div.aboutmeTxt {
   padding-left: 2em;
   float: left;
 }
@@ -164,10 +170,11 @@ div.aboutme > p {
   position: absolute;
   inset: -200%;
   background-image: url("/background/noise.png");
+  /* height: 100%; */
   opacity: 15%;
   z-index: -1;
-
   animation: shift 0.8s linear infinite both;
+  padding-bottom: 2em;
 }
 
 @keyframes shift {
