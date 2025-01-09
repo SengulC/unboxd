@@ -5,7 +5,7 @@ export default function AboutMe() {
   return (
     <body className='cinema'>
         <h1>About Me</h1>
-        <div className="fuzzy-overlay"></div>
+        {/* <div className="fuzzy-overlay"></div> */}
         <Link className="link" href="/"> &lt; Home </Link>
         <Link className="link" href="/about/credits"> &gt; Credits </Link>
         <div className='aboutme'>

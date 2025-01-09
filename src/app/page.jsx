@@ -21,7 +21,7 @@ export default function Home() {
               router.push('/rooms/cinema');
             }}
           />
-      <div className="fuzzy-overlay"></div>
+      {/* <div className="fuzzy-overlay"></div> */}
       <Link id="creditsLink" className="link" href="/about/me"> ? </Link>
     </body>
   );
