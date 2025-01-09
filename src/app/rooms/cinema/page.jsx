@@ -19,7 +19,6 @@ export default function Cinema() {
     setMovies(movieElements);
 
     const tagOptions = allTags.map((tag) => <option key={tag} value={tag}>{tag}</option>);
-    tagOptions.push("none");
     setOptions(tagOptions);
   }, []);
 
