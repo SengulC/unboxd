@@ -56,6 +56,11 @@ a:hover {
   column-gap: 2em;
 }
 
+.filter {
+  /* float: right; */
+  margin: 2em;
+}
+
 @media (max-width: 768px) {
   .cinemaGrid {
     grid-template-columns: repeat(2, 1fr); /* 2 columns on smaller screens */

@@ -10,7 +10,7 @@ import Movie from './movie/page.jsx';
 export default function Cinema() {
   const [movies, setMovies] = useState(null);
   const [options, setOptions] = useState(null);
-  const [chosenTag, setChosenTag] = useState("");
+  const [chosenTag, setChosenTag] = useState("all");
 
   useEffect(() => {
     const movieElements = Object.values(moviesData).map(data => (
@@ -18,7 +18,8 @@ export default function Cinema() {
     ));
     setMovies(movieElements);
 
-    const tagOptions = allTags.map((tag) => <option key={tag} value={tag}>{tag}</option>)
+    const tagOptions = allTags.map((tag) => <option key={tag} value={tag}>{tag}</option>);
+    tagOptions.push("none");
     setOptions(tagOptions);
   }, []);
 
@@ -35,11 +36,12 @@ export default function Cinema() {
       <Link className="link" href="/"> &lt; Home </Link>
       <h1>Cinema</h1>
 
-      <label htmlFor="tags">Filter via:</label>
-      <select onChange={(e)=>setChosenTag(e.target.value)} value={chosenTag} name="tags" id="tags">
-        {options}
-      </select>
-      <br></br>
+      <div className='filter'>
+        <label htmlFor="tags">Filter via: </label>
+        <select onChange={(e)=>setChosenTag(e.target.value)} value={chosenTag} name="tags" id="tags">
+          {options}
+        </select>
+      </div>
       
       <div className='cinemaGrid'>
         {movies}
