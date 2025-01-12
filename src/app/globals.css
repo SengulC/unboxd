@@ -17,13 +17,12 @@ h1 {
 
 h2 {
   font-family: "Jacquard 12", serif;
-  font-size: x-large;
+  font-size: 3em;
 }
 
 h3 {
-  font-family: "Sour Gummy", serif;
-  font-optical-sizing: auto;
-  font-size: x-large;
+  font-family: "Jacquard 12", serif;
+  font-size: 2em;
 }
 
 .link {
@@ -37,6 +36,10 @@ a {
 
 a:hover {
   color: #b74a18;
+}
+
+p {
+  font-size: x-large;
 }
 
 /* CINEMA */
@@ -120,6 +123,62 @@ img.moviePoster:hover {
   padding: 0.5em;
 }
 
+/* ABOUT */
+.about {
+  background-color: black;
+  z-index: -2;
+  color: white;
+  padding: 2em;
+  padding-top: 1em;
+  padding-bottom: 5em;
+}
+
+span.emphasis {
+  font-style: italic;
+  color: #7a57ae;
+}
+
+span.comment {
+  font-style: italic;
+  color: #857A96;
+}
+
+.aboutme {
+  margin-top: 2em;
+  display: flex;
+  padding: 1em;
+}
+
+img.avatar {
+  width: 15em;
+  height: 15em;
+  margin-top: 3em;
+}
+
+div.aboutme > div.aboutmeTxt {
+  padding-left: 2em;
+}
+
+ul.rankingList li {
+  padding-left: 1em;
+}
+
+.rankingList#movies {
+  list-style-image: url("/bullets/film.png");
+}
+
+.rankingList#shows {
+  list-style-image: url("/bullets/tv2.png");
+}
+
+.rankingList#music {
+  list-style-image: url("/bullets/music.png");
+}
+
+.ranking {
+  font-size: x-large;
+}
+
 /* HOMEPAGE */
 
 #creditsLink {
@@ -130,23 +189,6 @@ img.moviePoster:hover {
   height: 180px;
   clear: both;
   /* background-color: red; */
-}
-
-.aboutme {
-  margin-top: 2em;
-  /* font-size: large; */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-div.aboutme > img {
-  float: left;
-}
-
-div.aboutme > div.aboutmeTxt {
-  padding-left: 2em;
-  float: left;
 }
 
 .home {

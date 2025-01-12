@@ -3,10 +3,15 @@ import Link from 'next/link'
 
 export default function Credits() {
   return (
-    <body className='cinema'>
+    <body className='about'>
         <Link className="link" href="/"> &lt; Home </Link>
-        <Link className="link" href="/about/me"> &gt; About Me </Link>
         <h1>Credits</h1>
+        <h3>React Libraries/Tutorials</h3>
+        <ul>
+            <li>Responsive image map library by <a href="https://github.com/img-mapper/react-img-mapper">NishargShah</a></li>
+            <li>Simple React & Framer Motion animations by <a href="https://blog.olivierlarose.com/tutorials/pixel-transition">Olivier Larose</a></li>
+            <li>TV Static animation by <a href="https://github.com/TomIsLoading/tv-static">TomIsLoading</a></li>
+        </ul>
         <h3>2D Pixel Sprites</h3>
         <ul>
             <li>Furniture by <a href="https://games-container.itch.io/livingroom-assets"> Games Container</a></li>
@@ -27,7 +32,6 @@ export default function Credits() {
             <li><a href="https://www.imdb.com/">IMDb</a></li>
             <li><a href="https://www.letterboxd.com/">Letterboxd</a></li>
         </ul>
-        <div className="fuzzy-overlay"></div>
     </body>
   )
 }

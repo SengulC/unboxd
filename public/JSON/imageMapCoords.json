@@ -2,7 +2,7 @@
     {
         "_comment": {
             "id": "obj",
-            "title": "room/link",
+            "title": "/roomsORabout/?",
             "shape": "circle/rect/poly",
             "fillColor": "rgba(0,0,0,0)",
             "strokeColor": "rgba(0,0,0,0)",
@@ -10,7 +10,7 @@
             "coords": ["?,?,?"]
         },
         "id": "cookies",
-        "title": "kitchen",
+        "title": "/rooms/kitchen",
         "shape": "circle",
         "fillColor": "rgba(0,0,0,0)",
         "strokeColor": "rgba(0,0,0,0)",
