@@ -151,19 +151,24 @@ div.aboutme > div.aboutmeTxt {
 
 .home {
   background-color: black;
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .imageMap{
-  /* z-index: 100; */
-  z-index: -3;
+  /* z-index: -3; */
 }
 
 .img-mapper-map {
   cursor: help;
+}
+
+.img-mapper-img {
+  width: 900px;
+  height: auto;
+  margin: 0 10em;
 }
 
 .img-mapper-area-highlighted {
