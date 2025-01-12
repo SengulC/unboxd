@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "UNBOXD",
-  description: "UNBOXD: SC's personal media website.",
+  title: "Unboxd",
+  description: "Unboxd: SC's personal media website.",
 };
 
 export default function RootLayout({ children }) {

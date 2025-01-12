@@ -36,12 +36,12 @@ export default function AboutMe() {
                   you can <span className='emphasis'>contact me</span> by email <a href="mailto:">here</a> 
                    <span className='comment'> to discuss anything web or media related! </span>
                   And below I will list <span className='comment'>my ~ever-changing~ </span>favorites in movies, 
-                  shows and songs. <span className='emphasis'>Thanks for checking out UNBOXD!</span>
+                  shows and songs. <span className='emphasis'>Thanks for checking out Unboxd!</span>
                 </p>
 
                 <hr></hr>
 
-                <h2>My Favorites</h2>
+                <h2>My Favorites <span className='comment'>(subject to change!!)</span></h2>
                 <h3>My Favorite Movies</h3>
                 <ul id="movies" className='rankingList'>
                   <li className='ranking'>Bottoms</li>

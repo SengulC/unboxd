@@ -11,6 +11,7 @@ export default function Credits() {
             <li>Responsive image map library by <a href="https://github.com/img-mapper/react-img-mapper">NishargShah</a></li>
             <li>Simple React & Framer Motion animations by <a href="https://blog.olivierlarose.com/tutorials/pixel-transition">Olivier Larose</a></li>
             <li>TV Static animation by <a href="https://github.com/TomIsLoading/tv-static">TomIsLoading</a></li>
+            <li>CSS box shadows from <a href="https://getcssscan.com/css-box-shadow-examples">CSS Scan</a></li>
         </ul>
         <h3>2D Pixel Sprites</h3>
         <ul>
@@ -18,7 +19,8 @@ export default function Credits() {
             <li>Food by <a href="https://ghostpixxells.itch.io/pixelfood"> ghostpixxells</a></li>
             <li>Drinks by <a href="https://helm3t.itch.io/cocktail-pixel-icon-pack"> Helm3t</a></li>
             <li>Digital devices and vinyl record by <a href="https://opengameart.org/content/retro-items">knekko</a></li>
-            <li>Personal avatar via <a href="https://www.avatarsinpixels.com/">Avatars in Pixels</a></li>
+            <li>Personal avatar by me via <a href="https://www.avatarsinpixels.com/">Avatars in Pixels</a></li>
+            <li>TV frame by me</li>
         </ul>
         <h3>Fonts</h3>
         <ul>

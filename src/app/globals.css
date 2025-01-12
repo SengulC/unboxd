@@ -130,7 +130,7 @@ img.moviePoster:hover {
   color: white;
   padding: 2em;
   padding-top: 1em;
-  padding-bottom: 5em;
+  padding-bottom: 40em;
 }
 
 span.emphasis {
@@ -141,6 +141,12 @@ span.emphasis {
 span.comment {
   font-style: italic;
   color: #857A96;
+}
+
+h2 > span.comment {
+  font-style: italic;
+  color: #857A96;
+  font-size: small;
 }
 
 .aboutme {
