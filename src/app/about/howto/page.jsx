@@ -25,7 +25,7 @@ export default function AboutMe() {
         <h2>How was Unboxd designed & developed?</h2>
         <p>
         Unboxd is essentially a React-Next app developed solely by me. 
-        Here are the relevant docs for React and Next.
+        Here are the relevant docs for <a href="https://react.dev/">React</a> and <a href="https://nextjs.org/">Next</a>.
         The aforemention responsive image mapping library allowed me to realize my vision of 
         a pixel-design ineractive room, wherein the rooms correspond to relevant 
         media discussions and reviews.
