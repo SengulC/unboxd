@@ -1,6 +1,7 @@
 "use client"
 import HTMLFlipBook from "react-pageflip";
 import React from "react";
+import Link from "next/link";
 
 const PageCover = React.forwardRef((props, ref) => {
   return (
@@ -14,7 +15,7 @@ const PageCover = React.forwardRef((props, ref) => {
 
 const Page = React.forwardRef((props, ref) => {
 return (
-  <div className="page" ref={ref}>
+  <div className={`page + ${props.side}`} data-density="hard" ref={ref}>
     <div className="page-content">
       <h2 className="page-header">Page header - {props.number}</h2>
       <div className="page-image"></div>
@@ -26,24 +27,26 @@ return (
 });
 
 export default function Kitchen() {
-
   return (
   <body className="kitchen">
-    <HTMLFlipBook
-      width={500} height={650}
-      maxWidth={500} maxHeight={650}
-      className="book"
-      size="stretch"
-      maxShadowOpacity={0}
-      showCover
-    >
-      <PageCover>BOOK TITLE</PageCover>
-      <Page number={1}>Lorem ipsum...</Page>
-      <Page number={2}>Lorem ipsum...</Page>
-      <Page number={3}>Lorem ipsum...</Page>
-      <Page number={4}>Lorem ipsum...</Page>
-      <PageCover>THE END</PageCover>
-    </HTMLFlipBook>
+    <Link className="link" href="/"> &lt; Home </Link>
+    <div className="bookContainer">
+      <HTMLFlipBook
+        width={500} height={650}
+        maxWidth={500} maxHeight={650}
+        className="book"
+        size="stretch"
+        maxShadowOpacity={0}
+        // showCover
+      >
+        {/* <PageCover>BOOK TITLE</PageCover> */}
+        <Page side={"L"} number={1}>Lorem ipsum...</Page>
+        <Page side={"R"} number={2}>Lorem ipsum...</Page>
+        <Page side={"L"} number={3}>Lorem ipsum...</Page>
+        <Page side={"R"} number={4}>Lorem ipsum...</Page>
+        {/* <PageCover>THE END</PageCover> */}
+      </HTMLFlipBook>
+    </div>
   </body>
   );
 }

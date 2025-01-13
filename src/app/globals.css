@@ -53,22 +53,38 @@ body.kitchen {
 }
 
 .bookContainer{
+  padding-top: 1em;
+}
+
+.L {
+  background-image: url("/kitchen/pageL.png");
+  background-size: cover;
   
 }
 
-.book{
+.L .page-content {
+  margin-left: 6em;
 }
 
-.page{
-  background-color: white;
-  color: black;
-  border: solid black 0.1em;
-  border-radius: 0.2em;
+.R {
+  background-image: url("/kitchen/pageR.png");
+  background-size: cover;
 }
 
 .page-content {
   padding: 1em;
+  padding-top: 2em;
 }
+
+.R .page-content {
+  margin-left: 3em;
+}
+
+.page-cover {
+  /* background-image: ; */
+  background-size: cover;
+}
+
 
 /* CINEMA */
 
