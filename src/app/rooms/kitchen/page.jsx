@@ -81,7 +81,7 @@ export default function Kitchen() {
               width={900}
               onClick={(e) => {
                 // alert(e.title)
-                setShowBook(false);
+                setShowBook(true);
                 // router.push(e.title)
               }}
             />

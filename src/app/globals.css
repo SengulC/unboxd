@@ -217,6 +217,11 @@ body.kitchen {
   font-size: small;
 }
 
+.recipeBookSubheading {
+  height: 0em;
+  font-size: large;
+}
+
 h2.page-header {
   font-size: 3em;
 }

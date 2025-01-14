@@ -73,12 +73,17 @@ export default function RecipeBook() {
           (gives that Dr Pepper-esque fake cherry taste!) and frozen cherries.
           Always make sure cream cheese and butter is room temperature before making the frosting.
         </Page>
-        <PageCover side={"L"}> Savory Sauces </PageCover>
-        <Page side={"R"} number={4} header={"Steak Garlic Butter"}>
-          Lorem ipsum...
+        <PageCover side={"L"}> Savory Sauces & Sides </PageCover>
+        <Page side={"R"} number={4} header={"Steak Butter & Cheesy Chili Corn"}>
+          <h3 className="recipeBookSubheading">Steak butter</h3>
+          Combine: warm butter, salt, garlic, fresh rosemary, and chili flakes. <br/>
+          <h3 className="recipeBookSubheading">Cheesy chili corn</h3>
+          Combine: butter, chili powder, canned corn, grated cheese,
+          cream cheese/labne, garlic-onion-taco powder seasonings - all on a hot skillet.
         </Page>
         <Page side={"L"} number={5} header={"Burger Sauce"}>
-          Lorem ipsum...
+          1:1:1:0.5 ketchup, mayo, pickle juice, sriracha. <br/>
+          Add diced pickles and dried dill.
         </Page>
         <PageCover side={"R"}> Fin. </PageCover>
       </HTMLFlipBook>
