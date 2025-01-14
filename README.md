@@ -11,6 +11,8 @@ It is currently not deployed so you would have to clone the repository and host 
 First, install the dependencies then run the development server:
 
 ```bash
+> git clone https://github.com/SengulC/unboxd.git
+> cd ./unboxd/src
 > npm install
 > npm run dev
 ```
