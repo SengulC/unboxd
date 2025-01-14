@@ -12,7 +12,7 @@ export default function AboutMe() {
             <div className='aboutmeTxt'>
                 <h2>A little about me...</h2>
                 <p>
-                  Hi! I am a 2D pixel sprite and I made this website!
+                  Hi! I am the 2D pixel sprite to the left, and I made this website!
                   <span className='emphasis'> I loveeeee movies, TV, music, cooking, baking; </span>
                    and I love even more to keep track of what I consume!
 
