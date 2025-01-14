@@ -71,13 +71,13 @@
         "image": "/cinema/yellowjackets.jpg",
         "tags": ["tv", "all"]
     },
-    "The Boys": {
-        "title": "The Boys",
-        "director": "Eric Kripke",
-        "stars": 4,
-        "synopsis": "Superheroes are often as popular as celebrities, as influential as politicians, and sometimes even as revered as gods. But that's when they're using their powers for good. What happens when the heroes go rogue and start abusing their powers? When it's the powerless against the super powerful, the Boys head out on a heroic quest to expose the truth about the Seven and Vought.",
-        "review": "An insane but absolutely needed mockery of Marvel (and other things).",
-        "image": "/cinema/theboys.jpg",
-        "tags": ["tv", "comedy", "satire", "all"]
+    "The Walking Dead": {
+        "title": "The Walking Dead",
+        "director": "Robert Kirkman",
+        "stars": 5,
+        "synopsis": "In the wake of a zombie apocalypse, various survivors struggle to stay alive. As they search for safety and evade the undead, they are forced to grapple with rival groups and difficult choices.",
+        "review": "Incredible. Currently on season 7, grieving Glenn </3",
+        "image": "/cinema/twd.png",
+        "tags": ["favorites", "tv", "cinema!tography", "insanely-immersive", "romance", "all"]
     }
 }

@@ -18,7 +18,7 @@ export default function AboutMe() {
         library <Link target="_blank" href="/about/credits">here</Link>).
         Certain objects in the image map to a link! Try to figure out which objects these may be 
         based on the fact that I <span className='comment'> (aim to by the end of development) </span> 
-        have 3 main rooms: a kitchen, cinema, and music room. You should be able to tell which 
+        have 3 main rooms: a kitchen, cinema, games and music room. You should be able to tell which 
         objects link to a room as <span className='emphasis'>something special</span> happens when you 
         hover over them on the TV screen!
         </p>
@@ -40,10 +40,10 @@ export default function AboutMe() {
         Through this experience, I've been motivated more and more to create my own assets. 
         As amazing as asset creators are sometimes I cannot find the exact sprite I'm looking for,
         and sometimes when I do, they're not free. And so I've started dabbling in pixel art as well
-        as generic sprite creation! I have a minor background in game development throug a uni
-        course, but this was a group project and I was in the development team rather than the design.
+        as generic sprite creation! I have a minor background in game development through a uni
+        course, but that was a group project and I was in the development team rather than the design.
         But now I play for both sides, and it's been so fun!! As of now, the sprites I've created 
-        myself are: the tv frame.
+        myself are: the tv frame and recipe book.
         </p>
 
         <hr></hr>

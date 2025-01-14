@@ -6,16 +6,17 @@ export default function Credits() {
     <body className='about'>
         <Link className="link" href="/"> &lt; Home </Link>
         <h1>Credits</h1>
-        <h3>React Libraries/Tutorials</h3>
+        <h3>React Libraries & html/css Tutorials</h3>
         <ul>
-            <li>Responsive image map library by <a href="https://github.com/img-mapper/react-img-mapper">NishargShah</a></li>
+            <li>Responsive image map React library by <a href="https://github.com/img-mapper/react-img-mapper">NishargShah</a></li>
+            <li>Page turning effect React library by <a href="https://github.com/Nodlik/react-pageflip">Nodlik</a></li>
             <li>Simple React & Framer Motion animations by <a href="https://blog.olivierlarose.com/tutorials/pixel-transition">Olivier Larose</a></li>
             <li>TV Static animation by <a href="https://github.com/TomIsLoading/tv-static">TomIsLoading</a></li>
             <li>CSS box shadows from <a href="https://getcssscan.com/css-box-shadow-examples">CSS Scan</a></li>
         </ul>
         <h3>2D Pixel Sprites</h3>
         <ul>
-            <li>Furniture by <a href="https://games-container.itch.io/livingroom-assets"> Games Container</a></li>
+            <li><a href="https://games-container.itch.io/livingroom-assets">Homepage</a> and <a href="https://games-container.itch.io/house-assets?download">kitchen</a> furniture by Games Container</li>
             <li>Food by <a href="https://ghostpixxells.itch.io/pixelfood"> ghostpixxells</a></li>
             <li>Drinks by <a href="https://helm3t.itch.io/cocktail-pixel-icon-pack"> Helm3t</a></li>
             <li>Digital devices and vinyl record by <a href="https://opengameart.org/content/retro-items">knekko</a></li>

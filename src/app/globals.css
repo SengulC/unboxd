@@ -42,50 +42,6 @@ p {
   font-size: x-large;
 }
 
-/* KITCHEN */
-body.kitchen {
-  background-color: gray;
-  margin: 0 auto;
-  justify-content: center;
-  align-items: center;
-  padding: 3em;
-  padding-left: 7em;
-}
-
-.bookContainer{
-  padding-top: 1em;
-}
-
-.L {
-  background-image: url("/kitchen/pageL.png");
-  background-size: cover;
-  
-}
-
-.L .page-content {
-  margin-left: 6em;
-}
-
-.R {
-  background-image: url("/kitchen/pageR.png");
-  background-size: cover;
-}
-
-.page-content {
-  padding: 1em;
-  padding-top: 2em;
-}
-
-.R .page-content {
-  margin-left: 3em;
-}
-
-.page-cover {
-  /* background-image: ; */
-  background-size: cover;
-}
-
-
 /* CINEMA */
 
 .cinema {
@@ -168,6 +124,7 @@ img.moviePoster:hover {
 }
 
 /* ABOUT */
+
 .about {
   background-color: black;
   z-index: -2;
@@ -229,6 +186,78 @@ ul.rankingList li {
   font-size: x-large;
 }
 
+/* KITCHEN */
+
+body.kitchen {
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+}
+
+.tvbgContainer {
+  position: absolute;
+  z-index: 0;
+}
+
+.tvbg {
+  z-index: 0;
+}
+
+.bookContainer {
+  z-index: 1;
+  padding-top: 6em;
+  padding-left: 17em;
+}
+
+/* PAGE CONTENT */
+
+.page-content {
+  padding: 1em;
+  padding-top: 2em;
+}
+
+.page-cover {
+  background-image: url("/kitchen/pageL.png");
+  background-size: cover;
+}
+
+.page-cover .page-content {
+  margin-top: 12em;
+}
+
+.L {
+  background-image: url("/kitchen/pageL.png");
+  background-size: cover;
+}
+.L .page-content {
+  margin-left: 6em;
+}
+
+.R {
+  background-image: url("/kitchen/pageR.png");
+  background-size: cover;
+}
+.R .page-content {
+  margin-left: 3em;
+}
+
+/* IMAGE MAP */
+
+.img-mapper-map {
+  cursor: help;
+}
+
+.img-mapper-img {
+  width: 900px;
+  height: auto;
+  margin: 0 10em;
+}
+
+.img-mapper-area-highlighted {
+  cursor: wait;
+}
+
 /* HOMEPAGE */
 
 #creditsLink {
@@ -247,24 +276,6 @@ ul.rankingList li {
   justify-content: center;
   align-items: center;
   /* overflow: hidden; */
-}
-
-.imageMap{
-  /* z-index: -3; */
-}
-
-.img-mapper-map {
-  cursor: help;
-}
-
-.img-mapper-img {
-  width: 900px;
-  height: auto;
-  margin: 0 10em;
-}
-
-.img-mapper-area-highlighted {
-  cursor: wait;
 }
 
 /* NOISE ANIMATION */

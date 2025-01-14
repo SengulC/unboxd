@@ -1,18 +1,18 @@
 "use client"
 import ImageMapper from "react-img-mapper";
-import areasFile from "/public/JSON/imageMapCoords.json"
+import coords from "/public/JSON/coords.js";
 import { useRouter } from 'next/navigation'
 
 export default function Home() {
   const router = useRouter();
-  const areas = areasFile;
+  console.log(coords.homeCoords);
 
   return (
     <body className="home">
-      <ImageMapper className="imageMap"
+      <ImageMapper
             map={{
                 name:"my-map", 
-                areas: areas
+                areas: coords.homeCoords
                 }}
             src={'background/homepage.png'}
             active={true}
