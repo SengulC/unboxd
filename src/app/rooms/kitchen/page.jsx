@@ -18,25 +18,25 @@ export default function Kitchen() {
   <body className="kitchen">
     <div className="tvbgContainer">
       <ImageMapper className="tvbg"
-              map={{
-                  name:"my-map", 
-                  areas: kitchenCoords
-                  }}
-              src={'/background/kitchenpage.png'}
-              active={true}
-              responsive={true}
-              parentWidth={900}
-              length={900}
-              width={900}
-              onClick={(e) => {
-                // setShowBook(false);
+        map={{
+            name:"my-map", 
+            areas: kitchenCoords
+            }}
+        src={'/background/kitchenpage.png'}
+        active={true}
+        responsive={true}
+        parentWidth={900}
+        length={900}
+        width={900}
+        onClick={(e) => {
+          // setShowBook(false);
 
-                // if it's one of the buttons, redirect there
-                (e.title == "/about/me/" || e.title == "/about/credits/" || e.title == "/") ? router.push(e.title) 
-                : // else alert
-                alert(e.title);
-              }}
-            />
+          // if it's one of the buttons, redirect there
+          (e.title == "/about/me/" || e.title == "/about/credits/" || e.title == "/") ? router.push(e.title) 
+          : // else alert
+          alert(e.title);
+        }}
+        />
     </div>
     {showBook && 
       <RecipeBook setShowBook={setShowBook}/>

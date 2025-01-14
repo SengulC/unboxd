@@ -3,6 +3,12 @@
 
 html, body, #__next { height: 100%; }
 
+div#test {
+  width: 1080px;
+  height: 1000px;
+  background-color: cyan;
+}
+
 /* FONTS AND HEADERS */
 * {
   font-family: "Sour Gummy", serif;
@@ -220,7 +226,32 @@ button.closeBookBtn {
   color: black;
 }
 
+/* responsive book */
+@media (max-width: 980px) {
+  .book {
+    /* ????? */
+  }
+  .page {
+  overflow: scroll;
+  }
+}
+/* scrollbar design */
+::-webkit-scrollbar {
+  width: 8px;
+  background : transparent;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #82675D;
+  border-radius: 10px;
+  width : 8px;
+}
+
 /* PAGE CONTENT */
+
 .page-content {
   padding: 2em;
   padding-right: 5em;
