@@ -211,10 +211,20 @@ body.kitchen {
 }
 
 /* PAGE CONTENT */
-
 .page-content {
-  padding: 1em;
-  padding-top: 2em;
+  padding: 2em;
+  padding-right: 4em;
+  font-size: small;
+}
+
+h2.page-header {
+  font-size: 3em;
+}
+
+.page-footer {
+  text-align: center;
+  bottom: 0;
+  left: 0;
 }
 
 .page-cover {
@@ -231,7 +241,7 @@ body.kitchen {
   background-size: cover;
 }
 .L .page-content {
-  margin-left: 6em;
+  margin-left: 3em;
 }
 
 .R {
@@ -239,7 +249,7 @@ body.kitchen {
   background-size: cover;
 }
 .R .page-content {
-  margin-left: 3em;
+  margin-left: 0.5em;
 }
 
 /* IMAGE MAP */
