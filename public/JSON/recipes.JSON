@@ -1,0 +1,70 @@
+[
+    {
+        "header": "Recipes",
+        "src": "",
+        "cover": true
+    },
+    {
+        "header": "Desserts",
+        "src": "",
+        "cover": true
+    },
+    {
+        "header": "Fl-Earl Gray Cake",
+        "content": "Earl gray and marzipan-chunks sponge cake (1:1:1 b:s:f ratio, 3 eggs) soaked with çiçek suyu and rose syrup. \n Rose cream cheese frosting. \n Rose marmalade to decorate.",
+        "link": "https://theclovecoterie.substack.com/p/nosferatu-cake",
+        "src": "/kitchen/cake.jpg",
+        "cover": false
+    },
+    {
+        "header": "White C(h)oconut Cookies",
+        "content": "Butter + Coconut oil-based cookies.",
+        "link": "https://www.crunchycreamysweet.com/white-chocolate-coconut-cookies-recipe",
+        "src": "/kitchen/wcocookie.jpg",
+        "cover": false
+    },
+    {
+        "header": "Triple Velvet Cupcakes",
+        "content": "Red velvet cupcakes with cherries, chocolate chunks and beetroot. \n Follow classic red velvet with beetroot (gives both color and gooeyness) recipe. \n Add milk chocolate chunks and frozen cherries as desired to batter. Bake. \n Decorate with cream cheese frosting spiked with bitter almond syrup (gives that Dr Pepper-esque fake cherry taste!) and frozen cherries. Always make sure cream cheese and butter is room temperature before making the frosting",
+        "link": "",
+        "src": "",
+        "cover": false
+    },
+    {
+        "header": "Drinks",
+        "src": "",
+        "cover": true
+    },
+    {
+        "header": "Coffee Drinks",
+        "content": "Floral Matcha Latte (with rose syrup and çiçek suyu). Coconut Iced Americano. Pistachio Matcha Latte. Orange Espresso-ade with Rosemary (OJ, espresso, rosemary, soda), Banana Milk Latte, Melon Milk Matcha, Real-Pumpkin and Spiced Latte",
+        "link": "",
+        "src": "",
+        "cover": false
+    },
+    {
+        "header": "Savory Sauces and Sides",
+        "src": "",
+        "cover": true
+    },
+    {
+        "header": "Steak Butter & Cheesy Chili Corn",
+        "content": "Steak butter Combine: warm butter, salt, garlic, fresh rosemary, and chili flakes. Cheesy chili corn Combine: butter, chili powder, canned corn, grated cheese, cream cheese/labne, garlic-onion-taco powder seasonings - all on a hot skillet.",
+        "link": "",
+        "src": "",
+        "cover": false
+    },
+    {
+        "header": "Aubergine and Hellim Fried Rice",
+        "content": "Fry the following with olive oil in a hot skillet: aubergine, hellim, tomato paste, chili paste. Add garlic and onion powder, and chili flakes to season. Add cooked rice. Add choice of protein (I suggest sausage or shrimp!). Grate cheese on top and close lid to melt a little; plate, top with spring onion and enjoy!",
+        "link": "",
+        "src": "",
+        "cover": false
+    },
+    {
+        "header": "Fin.",
+        "src": "",
+        "cover": true
+    }
+]
+
