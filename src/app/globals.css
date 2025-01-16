@@ -3,10 +3,31 @@
 
 html, body, #__next { height: 100%; }
 
+#loading {
+  color: white;
+}
+
 div#test {
   width: 1080px;
   height: 1000px;
   background-color: cyan;
+}
+
+/* scrollbar design */
+::-webkit-scrollbar {
+  width: 0.3em;
+  height: 0.3em;
+  background : transparent;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #82675D;
+  border-radius: 10px;
+  width : 0.3em;
+  height : 0.3em;
 }
 
 /* FONTS AND HEADERS */
@@ -232,22 +253,8 @@ button.closeBookBtn {
     /* ????? */
   }
   .page {
-  overflow: scroll;
+    overflow: scroll;
   }
-}
-/* scrollbar design */
-::-webkit-scrollbar {
-  width: 8px;
-  background : transparent;
-  border-radius: 10px;
-}
-::-webkit-scrollbar-track {
-  border-radius: 10px;
-}
-::-webkit-scrollbar-thumb {
-  background: #82675D;
-  border-radius: 10px;
-  width : 8px;
 }
 
 /* PAGE CONTENT */
@@ -257,6 +264,11 @@ button.closeBookBtn {
   padding-right: 5em;
   margin-right: 0.5em;
   font-size: small;
+}
+
+p.bookPara {
+  font-size: small;
+  margin: 0.35em 0em;
 }
 
 .recipeBookSubheading {

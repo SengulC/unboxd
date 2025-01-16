@@ -23,7 +23,6 @@ export default function Cinema() {
   }, []);
 
   useEffect(() => {
-    console.log(chosenTag)
     const movieElements = Object.values(moviesData).map(data => data.tags.includes(chosenTag) && (
       <MoviePoster key={data.title} movieTitle={data.title} src={data.image}/>
     ));

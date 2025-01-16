@@ -10,37 +10,41 @@ export default function Kitchen() {
   const [showBook, setShowBook] = useState(true);
   const [kitchenCoords, setKitchenCoords] = useState(coords.kitchenCoords);
 
-  // useEffect(() => {
-  //   setKitchenCoords(coords.kitchenCoords);
-  // }, [])
+  useEffect(() => {
+    console.log(coords);
+    setKitchenCoords(coords.kitchenCoords);
+  }, []); 
+    
+  if (!kitchenCoords) {
+    return (<body className="kitchen"><h1 id='loading'>Loading...</h1></body>)
+  }
   
   return (
-  <body className="kitchen">
-    <div className="tvbgContainer">
-      <ImageMapper className="tvbg"
-        map={{
-            name:"my-map", 
-            areas: kitchenCoords
-            }}
-        src={'/background/kitchenpage.png'}
-        active={true}
-        responsive={true}
-        parentWidth={900}
-        length={900}
-        width={900}
-        onClick={(e) => {
-          // setShowBook(false);
-
-          // if it's one of the buttons, redirect there
-          (e.title == "/about/me/" || e.title == "/about/credits/" || e.title == "/") ? router.push(e.title) 
-          : // else alert
-          alert(e.title);
-        }}
-        />
-    </div>
-    {showBook && 
-      <RecipeBook setShowBook={setShowBook}/>
-    }
-  </body>
+    <body className="kitchen">
+      <div className="tvbgContainer">
+        <ImageMapper className="tvbg"
+          map={{
+              name:"my-map", 
+              areas: kitchenCoords
+              }}
+          src={'/background/kitchenpage.png'}
+          active={true}
+          responsive={true}
+          parentWidth={900}
+          length={900}
+          width={900}
+          onClick={(e) => {
+            // if it's one of the buttons, redirect there
+            (e.title == "/about/me/" || e.title == "/about/credits/" || e.title == "/") ? router.push(e.title) 
+            : // else show book
+            setShowBook(!showBook);
+            console.log("hi");
+          }}
+          />
+      </div>
+      {showBook && 
+        <RecipeBook setShowBook={setShowBook}/>
+      }
+    </body>
   );
 }

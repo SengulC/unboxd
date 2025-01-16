@@ -5,7 +5,6 @@ import { useRouter } from 'next/navigation'
 
 export default function Home() {
   const router = useRouter();
-  console.log(coords.homeCoords);
 
   return (
     <body className="home">
