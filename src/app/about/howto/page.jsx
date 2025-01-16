@@ -18,7 +18,7 @@ export default function AboutMe() {
         library <Link target="_blank" href="/about/credits">here</Link>).
         Certain objects in the image map to a link! Try to figure out which objects these may be 
         based on the fact that I <span className='comment'> (aim to by the end of development) </span> 
-        have 3 main rooms: a kitchen, cinema, games and music room. You should be able to tell which 
+        have the following: a kitchen, cinema, games and music room. You should be able to tell which 
         objects link to a room as <span className='emphasis'>something special</span> happens when you 
         hover over them on the TV screen!
         </p>
@@ -26,7 +26,7 @@ export default function AboutMe() {
         <p>
         Unboxd is essentially a React-Next app developed solely by me. 
         Here are the relevant docs for <a href="https://react.dev/">React</a> and <a href="https://nextjs.org/">Next</a>.
-        The aforemention responsive image mapping library allowed me to realize my vision of 
+        The aforementioned responsive image mapping library allowed me to realize my vision of 
         a pixel-design ineractive room, wherein the rooms correspond to relevant 
         media discussions and reviews.
 
