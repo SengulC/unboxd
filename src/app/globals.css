@@ -247,8 +247,14 @@ button.closeBookBtn {
   color: black;
 }
 
-/* responsive book */
+/* responsive book and about page */
 @media (max-width: 980px) {
+  .aboutme {
+    display: block;
+    > img.avatar {
+      padding-left: 3em;
+    }
+  }
   .book {
     /* ????? */
   }
