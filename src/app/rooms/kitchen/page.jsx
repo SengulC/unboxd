@@ -7,7 +7,7 @@ import RecipeBook from "./RecipeBook";
 
 export default function Kitchen() {
   const router = useRouter();
-  const [showBook, setShowBook] = useState(true);
+  const [showBook, setShowBook] = useState(false);
   const [kitchenCoords, setKitchenCoords] = useState(coords.kitchenCoords);
 
   useEffect(() => {
