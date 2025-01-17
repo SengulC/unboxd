@@ -13,6 +13,10 @@ div#test {
   background-color: cyan;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 /* scrollbar design */
 ::-webkit-scrollbar {
   width: 0.3em;

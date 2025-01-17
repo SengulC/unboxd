@@ -8,7 +8,20 @@ export default function Stars({rating}) {
     const [starsList, setstarsList] = useState([]);
 
     useEffect(() => {
-        let arr = new Array(rating).fill("★");
+        // rating = 3.5
+        let len = Math.floor(rating);
+        let arr = new Array(5);
+        for (let i=0; i<len; i++) {
+            arr.push("🌕 ")
+        }
+        if (rating !== len) {
+            arr.push("🌗 ")
+        }
+        let remainder = Math.floor(5-rating); // 5-3.5 = 1-> 1
+        for (let i=0; i<remainder; i++) {
+            arr.push("🌑 ")
+        }
+        // 🌕🌕🌕🌗🌑
         setstarsList(arr);
     }, [rating])    
 
