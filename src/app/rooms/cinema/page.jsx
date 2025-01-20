@@ -5,7 +5,6 @@ import { useEffect, useState } from 'react';
 import moviesData from "/public/JSON/movies.json";
 import allTags from "/public/JSON/tags.json"
 import { MoviePoster } from "./Movie.jsx";
-import Movie from './movie/page.jsx';
 
 export default function Cinema() {
   const [movies, setMovies] = useState(null);
