@@ -22,7 +22,7 @@ export default function Home() {
         }}
         transition={{ type: "tween", ease: "backOut", duration:0.5}}
       />
-      <div className="tvbgContainer">
+      {/* <div className="tvbgContainer"> */}
         <ImageMapper
               map={{
                   name:"my-map", 
@@ -39,7 +39,7 @@ export default function Home() {
               }}
               onMouseEnter={() => {setIsHovered(true)}} onMouseLeave={() => {setIsHovered(false)}}
             />
-        </div>
+        {/* </div> */}
     </body>
   );
 }
