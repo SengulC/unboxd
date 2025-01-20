@@ -1,6 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Rubik+Glitch&family=Schoolbell&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
 
+.mask{  
+  mask-image: url('/mask.svg');
+  mask-repeat: no-repeat;
+  mask-size: 40px;
+  background: #404040;    
+  position: absolute;
+  color: black;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #afa18f;
+  font-size: 64px;
+  line-height: 66px;
+  cursor: default;
+  z-index: 1;
+}
+
 html, body, #__next { height: 100%; }
 
 #loading {
@@ -228,7 +247,7 @@ body.kitchen {
 
 .tvbgContainer {
   position: absolute;
-  z-index: 0;
+  /* z-index: 0; */
 }
 
 .tvbg {
@@ -335,18 +354,13 @@ img.pageImg {
 
 /* IMAGE MAP */
 
-.img-mapper-map {
-  cursor: help;
-}
-
 .img-mapper-img {
-  width: 900px;
+  max-width: 900px;
   height: auto;
   margin: 0 10em;
 }
 
 .img-mapper-area-highlighted {
-  cursor: wait;
 }
 
 /* HOMEPAGE */
