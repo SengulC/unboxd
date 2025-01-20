@@ -2,7 +2,7 @@
 import HTMLFlipBook from "react-pageflip";
 import React from "react";
 import recipes from "/public/JSON/recipes.JSON";
-import { useRef, useEffect, useState, Suspense } from "react";
+import { useRef, useEffect, useState } from "react";
 
 const PageCover = React.forwardRef((props, ref) => {
   const handleClick = (e) => {
