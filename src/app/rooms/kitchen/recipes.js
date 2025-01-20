@@ -1,10 +1,4 @@
-import HTMLFlipBook from "react-pageflip";
 import React from "react";
-import ImageMapper from "react-img-mapper";
-import coords from "/public/JSON/coords.js";
-import { useSearchParams } from 'next/navigation';
-import { useRef } from "react";
-import { useLayoutEffect } from "react";
 
 const PageCover = React.forwardRef((props, ref) => {
   return (

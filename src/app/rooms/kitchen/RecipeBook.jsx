@@ -3,7 +3,7 @@ import HTMLFlipBook from "react-pageflip";
 import React from "react";
 import recipes from "/public/JSON/recipes.JSON";
 import { useSearchParams } from 'next/navigation';
-import { useRef, useEffect, useState } from "react";
+import { useRef, useEffect, useState, Suspense } from "react";
 
 const PageCover = React.forwardRef((props, ref) => {
   const handleClick = (e) => {
@@ -64,6 +64,7 @@ export default function RecipeBook({setShowBook}) {
   }, [])  
 
   return (
+    <Suspense>
     <div className="bookContainer">
       <HTMLFlipBook
       className="book"
@@ -76,5 +77,6 @@ export default function RecipeBook({setShowBook}) {
         {pages}
       </HTMLFlipBook>
     </div>
+    </Suspense>
   );
 }

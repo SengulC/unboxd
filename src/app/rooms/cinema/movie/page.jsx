@@ -1,10 +1,11 @@
 'use client'
 
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import moviesData from "/public/JSON/movies.json";
 import Link from 'next/link';
 import Stars from './Stars';
+
 
 export default function Movie() {
   const searchParams = useSearchParams();
@@ -30,6 +31,7 @@ export default function Movie() {
   }, [movieName]);
 
   return (
+    <Suspense>
     <body className='cinema'>
         <Link className="link" href="/"> &lt; Home </Link>
         <Link className="link" href="/rooms/cinema/"> &lt; Cinema </Link>
@@ -51,5 +53,6 @@ export default function Movie() {
         </div>
       <div className="fuzzy-overlay"></div>
     </body>
+    </Suspense>
   );
 }
