@@ -247,7 +247,7 @@ body.kitchen {
 
 .tvbgContainer {
   position: absolute;
-  /* z-index: 0; */
+  z-index: 0;
 }
 
 .tvbg {
