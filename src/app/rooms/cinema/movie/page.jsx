@@ -31,7 +31,6 @@ export default function Movie() {
   }, [movieName]);
 
   return (
-    <Suspense>
     <body className='cinema'>
         <Link className="link" href="/"> &lt; Home </Link>
         <Link className="link" href="/rooms/cinema/"> &lt; Cinema </Link>
@@ -40,7 +39,9 @@ export default function Movie() {
                 <img className="moviePoster" src={movieData.image}></img>
             </div>
             <div className='moviePageData'>
+                <Suspense fallback={<>Loading...</>}>
                 <h1>{movieName}</h1>
+                </Suspense>
                 <h2>{movieData.director}</h2>
                 <div> <Stars rating={movieData.stars}/> </div> <br/>
                 <div id='synopsis'> {movieData.synopsis} </div> <br/>
@@ -53,6 +54,5 @@ export default function Movie() {
         </div>
       <div className="fuzzy-overlay"></div>
     </body>
-    </Suspense>
   );
 }
