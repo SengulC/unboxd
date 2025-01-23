@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useEffect, useState, Suspense } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useSearchParams } from 'next/navigation';
 import moviesData from "/public/JSON/movies.json";
 import Link from 'next/link';
@@ -36,18 +36,14 @@ export default function Movie() {
         <Link className="link" href="/rooms/cinema/"> &lt; Cinema </Link>
         <div className='moviePage'>
             <div className='moviePageImg'>
-              <Suspense fallback={<>Loading...</>}>
                 <img className="moviePoster" src={movieData.image}></img>
-              </Suspense>
             </div>
             <div className='moviePageData'>
-                <Suspense fallback={<>Loading...</>}>
                   <h1>{movieName}</h1>
                   <h2>{movieData.director}</h2>
                   <div> <Stars rating={movieData.stars}/> </div> <br/>
                   <div id='synopsis'> {movieData.synopsis} </div> <br/>
                   <div id='review'> {movieData.review} </div> <br/>
-                </Suspense>
                 <ul id='tags'>
                     {/* {movieData.tags} */}
                     {movieTags.map((tag)=> <li className='tag' key={tag}>{tag}</li>)}
