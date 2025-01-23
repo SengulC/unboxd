@@ -6,7 +6,7 @@
         "synopsis": "Amid the stark discord of twin cities Piltover and Zaun, two sisters fight on rival sides of a war between magic technologies and clashing convictions.",
         "review": "Oh my god, amazing. Who would've thought League of Legends would've provided the lore for one of the best animated shows to ever exist. Or just shows in general. Redefined TV for me, some of the greatest implementations of 'show not tell' in recent TV, and with the abundance of spoon-feeding streaming shows, this was such a gem. Needless to say that it has impeccable animation, and such a creative approach to characterization that it almost made me re-install Maya. Great character development, and deterioration when called for - perfection.",
         "image": "/cinema/arcane.jpg",
-        "tags": ["tv", "favorites", "world-building", "cinema!tography", "insanely-immersive", "all"]
+        "tags": ["tv", "favorites", "world-building", "character-development", "cinema!tography", "insanely-immersive", "all"]
     },
     "The Bear": {
         "title": "The Bear",
@@ -22,7 +22,7 @@
         "director": "Emma Seligman",
         "stars": 5,
         "synopsis": "Unpopular best friends PJ and Josie start a high school fight club to meet girls and lose their virginity. They soon find themselves in over their heads when the most popular students start beating each other up in the name of self-defense.",
-        "review": "One of the funniest, if not THE funniest movie I've ever seen. And I waited a long time for this to come out #beenheresincethestart. Love Rachel Sennot, Emma Seligman, Ayo Edebiri, I'll eat up anything they'll make, direct, produce or star in!! From Shiva Baby to Bottoms, what a track record. Still waiting for the sequel Tops. There are some imperfections and ADR-annoyances but what the movie lacks in perfect editing it more than makes up in needle drops.",
+        "review": "One of the funniest, if not THE funniest movie I've ever seen. And I waited a long time for this to come out #beenheresincethestart. Love Rachel Sennot, Emma Seligman, Ayo Edebiri, I'll eat up anything they'll make, direct, produce or star in!! From Shiva Baby to Bottoms, what a track record. There are some imperfections and ADR-annoyances but what the movie lacks in perfect editing it more than makes up in needle drops.",
         "image": "/cinema/bottoms.jpg",
         "tags": ["film", "comedy", "favorites", "needle-drop", "all"]
     },
@@ -51,7 +51,7 @@
         "synopsis": "Four elemental nations are at war with each other and only the Avatar, master of all four elements, can restore peace. The new Avatar comes in the form of Aang who strives to fulfil his destiny.",
         "review": "One of the OGs. So so ahead of its time, will never get sick of the world and lore of Avatar. No live action or ATLA rip off can ever replicate what they did with this one! Mandatory viewing for my future children for sure.",
         "image": "/cinema/atla.jpg",
-        "tags": ["tv", "favorites", "world-building", "all"]
+        "tags": ["tv", "favorites", "character-development", "world-building", "all"]
     },
     "Alice in Borderland": {
         "title": "Alice in Borderland",
@@ -78,6 +78,15 @@
         "synopsis": "In the wake of a zombie apocalypse, various survivors struggle to stay alive. As they search for safety and evade the undead, they are forced to grapple with rival groups and difficult choices.",
         "review": "Incredible. How does it not even get remotely uninteresting or not hit the same after SO many seasons?? Currently on season seven, grieving Glenn </3",
         "image": "/cinema/twd.png",
-        "tags": ["favorites", "tv", "cinema!tography", "insanely-immersive", "romance", "all"]
+        "tags": ["favorites", "tv", "cinema!tography", "character-development", "insanely-immersive", "romance", "all"]
+    },
+    "Little Fires Everywhere": {
+        "title": "Little Fires Everywhere",
+        "director": "Celeste Ng",
+        "stars": 4.5,
+        "synopsis": "Based on Celeste Ng's 2017 bestseller, 'Little Fires Everywhere' follows the intertwined fates of the picture-perfect Richardson family and the enigmatic mother and daughter who upend their lives.",
+        "review": "Interesting class, race, intersectionality discussions; and at the end of the day a deeply complex portrayal of familial relationships. Wish I had read the book beforehand, it's so obvious from its rich subtext and characterization that it's an adaptation.",
+        "image": "/cinema/fires.jpg",
+        "tags": ["tv", "character-development", "world-building", "romance", "all"]
     }
 }
