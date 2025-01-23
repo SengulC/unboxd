@@ -95,7 +95,9 @@ p {
 /* CINEMA */
 
 .cinema {
-  background-color: black;
+  background-image: url("/background/static.gif");
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: darken;
   z-index: -2;
   color: white;
   padding: 3em;
@@ -107,6 +109,7 @@ p {
   grid-template-columns: repeat(4, 1fr); 
   row-gap: 4em;
   column-gap: 2em;
+  padding-bottom: 10em;
 }
 
 .filter {
@@ -177,6 +180,9 @@ img.moviePoster:hover {
 
 .about {
   background-color: black;
+  background-image: url("/background/static.gif");
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: darken;
   z-index: -2;
   color: white;
   padding: 2em;
@@ -384,16 +390,14 @@ img.pageImg {
 }
 
 /* NOISE ANIMATION */
-.fuzzy-overlay {
+/* .fuzzy-overlay {
   position: absolute;
   inset: -200%;
   background-image: url("/background/noise.png");
-  /* height: 100%; */
   opacity: 15%;
   z-index: -1;
   animation: shift 0.8s linear infinite both;
-  padding-bottom: 2em;
-}
+} */
 
 @keyframes shift {
   0% {

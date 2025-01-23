@@ -50,7 +50,6 @@ export default function Movie() {
                 </ul>
             </div>
         </div>
-      <div className="fuzzy-overlay"></div>
     </body>
   );
 }
