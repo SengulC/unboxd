@@ -23,20 +23,19 @@ export default function Home() {
         transition={{ type: "tween", ease: "backOut", duration:0.5}}
       /> */}
         <ImageMapper
-              map={{
-                  name:"my-map", 
-                  areas: coords.homeCoords,
-                  className: "mapster"
-                  }}
-              src={'background/homepage.png'}
-              active={true}
-              responsive={true}
-              parentWidth={900}
-              width={900}
-              onClick={(e) => {
-                router.push(e.title);
+          map={{
+              name:"my-map", 
+              areas: coords.homeCoords,
+              className: "mapster"
               }}
-              // onMouseEnter={() => {setIsHovered(true)}} onMouseLeave={() => {setIsHovered(false)}}
+          src={'background/homepage.png'}
+          active={true}
+          responsive={true}
+          parentWidth={900}
+          onClick={(e) => {
+            router.push(e.title);
+          }}
+          // onMouseEnter={() => {setIsHovered(true)}} onMouseLeave={() => {setIsHovered(false)}}
             />
     </body>
   );

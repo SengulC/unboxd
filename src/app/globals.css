@@ -361,8 +361,8 @@ img.pageImg {
 /* IMAGE MAP */
 
 .img-mapper-img {
-  max-width: 900px;
-  height: auto;
+  /* max-width: 900px;
+  height: auto; */
   margin: 0 10em;
 }
 

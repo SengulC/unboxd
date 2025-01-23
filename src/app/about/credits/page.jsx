@@ -14,7 +14,7 @@ export default function Credits() {
             <li>TV Static animation by <a href="https://github.com/TomIsLoading/tv-static">TomIsLoading</a></li>
             <li>CSS box shadows from <a href="https://getcssscan.com/css-box-shadow-examples">CSS Scan</a></li>
         </ul>
-        <h3>2D Pixel Sprites</h3>
+        <h3>2D Pixel Sprites & Other Media</h3>
         <ul>
             <li><a href="https://games-container.itch.io/livingroom-assets">Homepage</a> and <a href="https://games-container.itch.io/house-assets?download">kitchen</a> furniture by Games Container</li>
             <li>Food by <a href="https://ghostpixxells.itch.io/pixelfood"> ghostpixxells</a></li>
@@ -22,6 +22,7 @@ export default function Credits() {
             <li>Digital devices and vinyl record by <a href="https://opengameart.org/content/retro-items">knekko</a></li>
             <li>Personal avatar by me via <a href="https://www.avatarsinpixels.com/">Avatars in Pixels</a></li>
             <li>TV frame by me</li>
+            <li>4K static gif for background via <a href="https://cliply.co/clip/static-noise/">Cliply.co</a> </li>
         </ul>
         <h3>Fonts</h3>
         <ul>
