@@ -8,21 +8,20 @@ import { useState } from "react";
 
 export default function Home() {
   const router = useRouter();
-  const [isHovered, setIsHovered] = useState(false);
-  const { x, y } = useMousePosition();
-  const size = isHovered ? 800 : 40;
+  // const [isHovered, setIsHovered] = useState(false);
+  // const { x, y } = useMousePosition();
+  // const size = isHovered ? 800 : 40;
 
   return (
     <body className="home">
-      <motion.div 
+      {/* <motion.div 
         className={"mask"}
         animate={{
           WebkitMaskPosition: `${x - (size/2)}px ${y - (size/2)}px`,
           WebkitMaskSize: `${size}px`,
         }}
         transition={{ type: "tween", ease: "backOut", duration:0.5}}
-      />
-      {/* <div className="tvbgContainer"> */}
+      /> */}
         <ImageMapper
               map={{
                   name:"my-map", 
@@ -37,9 +36,8 @@ export default function Home() {
               onClick={(e) => {
                 router.push(e.title);
               }}
-              onMouseEnter={() => {setIsHovered(true)}} onMouseLeave={() => {setIsHovered(false)}}
+              // onMouseEnter={() => {setIsHovered(true)}} onMouseLeave={() => {setIsHovered(false)}}
             />
-        {/* </div> */}
     </body>
   );
 }
