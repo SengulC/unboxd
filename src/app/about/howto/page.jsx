@@ -4,8 +4,8 @@ import Link from 'next/link'
 export default function AboutMe() {
   return (
     <body className='about'>
-        <h1>?</h1>
         <Link className="link" href="/"> &lt; Home </Link>
+        <h1>?</h1>
         <h2>What is this website?</h2>
         <p>
         Unboxd is a platform for me to practice my web design and development skills 

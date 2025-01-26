@@ -22,6 +22,10 @@
 
 html, body, #__next { height: 100%; }
 
+body {
+  cursor: url("/cursors/default.png"), default;
+}
+
 #loading {
   color: white;
 }
@@ -33,7 +37,7 @@ div#test {
 }
 
 button:hover {
-  cursor: pointer;
+  cursor: url("/cursors/pointer.png"), pointer;
 }
 
 /* scrollbar design */
@@ -95,7 +99,9 @@ p {
 /* CINEMA */
 
 .cinema {
-  background-color: black;
+  background-image: url("/background/static.gif");
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: darken;
   z-index: -2;
   color: white;
   padding: 3em;
@@ -107,6 +113,7 @@ p {
   grid-template-columns: repeat(4, 1fr); 
   row-gap: 4em;
   column-gap: 2em;
+  padding-bottom: 10em;
 }
 
 .filter {
@@ -134,8 +141,14 @@ p {
   box-shadow: rgba(183, 74, 24, 0.4) 5px 5px, rgba(183, 74, 24, 0.3) 10px 10px, rgba(183, 74, 24, 0.2) 15px 15px, rgba(183, 74, 24, 0.1) 20px 20px, rgba(183, 74, 24, 0.05) 25px 25px;
 }
 
+
+
 img.moviePoster:hover {
-  cursor: pointer;
+  cursor: url("/cursors/pointer.png"), pointer;
+} 
+
+img.focus.moviePoster:hover {
+  cursor: url("/cursors/default.png"), default;
 } 
 
 /* MOVIEPAGE */
@@ -177,6 +190,9 @@ img.moviePoster:hover {
 
 .about {
   background-color: black;
+  background-image: url("/background/static.gif");
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: darken;
   z-index: -2;
   color: white;
   padding: 2em;
@@ -355,12 +371,16 @@ img.pageImg {
 /* IMAGE MAP */
 
 .img-mapper-img {
-  max-width: 900px;
-  height: auto;
+  cursor: url("/cursors/default.png"), default;
   margin: 0 10em;
 }
 
+.img-mapper-area-highlighted:hover {
+  cursor: url("/cursors/pointer.png"), help;
+}
+
 .img-mapper-area-highlighted {
+  cursor: url("/cursors/pointer.png"), help;
 }
 
 /* HOMEPAGE */
@@ -384,16 +404,14 @@ img.pageImg {
 }
 
 /* NOISE ANIMATION */
-.fuzzy-overlay {
+/* .fuzzy-overlay {
   position: absolute;
   inset: -200%;
   background-image: url("/background/noise.png");
-  /* height: 100%; */
   opacity: 15%;
   z-index: -1;
   animation: shift 0.8s linear infinite both;
-  padding-bottom: 2em;
-}
+} */
 
 @keyframes shift {
   0% {

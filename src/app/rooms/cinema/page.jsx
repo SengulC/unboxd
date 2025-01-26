@@ -43,7 +43,6 @@ export default function Cinema() {
       <div className='cinemaGrid'>
         {movies}
       </div>
-      <div className="fuzzy-overlay"></div>
     </body>
   );
 }

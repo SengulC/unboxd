@@ -4,9 +4,8 @@ import Link from 'next/link'
 export default function AboutMe() {
   return (
     <body className='about'>
-        <h1>About Me</h1>
-        {/* <div className="fuzzy-overlay"></div> */}
         <Link className="link" href="/"> &lt; Home </Link>
+        <h1>About Me</h1>
         <div className='aboutme'>
             <img className="avatar" src="/avatar.png"></img>
             <div className='aboutmeTxt'>
