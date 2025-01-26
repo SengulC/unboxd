@@ -22,6 +22,10 @@
 
 html, body, #__next { height: 100%; }
 
+body {
+  cursor: url("/cursors/default.png"), default;
+}
+
 #loading {
   color: white;
 }
@@ -33,7 +37,7 @@ div#test {
 }
 
 button:hover {
-  cursor: pointer;
+  cursor: url("/cursors/pointer.png"), pointer;
 }
 
 /* scrollbar design */
@@ -137,8 +141,14 @@ p {
   box-shadow: rgba(183, 74, 24, 0.4) 5px 5px, rgba(183, 74, 24, 0.3) 10px 10px, rgba(183, 74, 24, 0.2) 15px 15px, rgba(183, 74, 24, 0.1) 20px 20px, rgba(183, 74, 24, 0.05) 25px 25px;
 }
 
+
+
 img.moviePoster:hover {
-  cursor: pointer;
+  cursor: url("/cursors/pointer.png"), pointer;
+} 
+
+img.focus.moviePoster:hover {
+  cursor: url("/cursors/default.png"), default;
 } 
 
 /* MOVIEPAGE */
@@ -361,12 +371,16 @@ img.pageImg {
 /* IMAGE MAP */
 
 .img-mapper-img {
-  /* max-width: 900px;
-  height: auto; */
+  cursor: url("/cursors/default.png"), default;
   margin: 0 10em;
 }
 
+.img-mapper-area-highlighted:hover {
+  cursor: url("/cursors/pointer.png"), help;
+}
+
 .img-mapper-area-highlighted {
+  cursor: url("/cursors/pointer.png"), help;
 }
 
 /* HOMEPAGE */

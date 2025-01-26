@@ -5,8 +5,9 @@ import { useRouter } from 'next/navigation'
 import { motion } from 'framer-motion';
 import useMousePosition from './useMousePosition';
 import { useState } from "react";
+import transition from "./transition";
 
-export default function Home() {
+function Home () {
   const router = useRouter();
   // const [isHovered, setIsHovered] = useState(false);
   // const { x, y } = useMousePosition();
@@ -40,3 +41,5 @@ export default function Home() {
     </body>
   );
 }
+
+export default (Home);
