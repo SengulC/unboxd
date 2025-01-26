@@ -3,6 +3,7 @@ import HTMLFlipBook from "react-pageflip";
 import React from "react";
 import recipes from "/public/JSON/recipes.JSON";
 import { useRef, useEffect, useState } from "react";
+import { motion } from "framer-motion";
 
 const PageCover = React.forwardRef((props, ref) => {
   const handleClick = (e) => {
@@ -62,6 +63,11 @@ export default function RecipeBook({setShowBook}) {
   }, [])  
 
   return (
+    <motion.div
+    initial={{ y: 0, opacity: 0 }}
+    animate={{ y: 0, opacity: 1 }}
+    transition={{ ease: "easeInOut", duration: 0.5 }}
+    >
     <div className="bookContainer">
       <HTMLFlipBook
       className="book"
@@ -74,5 +80,6 @@ export default function RecipeBook({setShowBook}) {
         {pages}
       </HTMLFlipBook>
     </div>
+    </motion.div>
   );
 }

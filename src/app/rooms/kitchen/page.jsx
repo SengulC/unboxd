@@ -4,6 +4,7 @@ import ImageMapper from "react-img-mapper";
 import { useRouter } from 'next/navigation'
 import coords from "/public/JSON/coords.js";
 import RecipeBook from "./RecipeBook";
+import { motion, AnimatePresence } from "framer-motion"
 
 export default function Kitchen() {
   const router = useRouter();
@@ -42,9 +43,13 @@ export default function Kitchen() {
           }}
           />
       </div>
+      <AnimatePresence>
       {showBook && 
+        <motion.div exit={{ opacity: 0 }}>
         <RecipeBook setShowBook={setShowBook}/>
+        </motion.div>
       }
+      </AnimatePresence>
     </div>
   );
 }
