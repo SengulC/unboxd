@@ -2,10 +2,6 @@
 import ImageMapper from "react-img-mapper";
 import coords from "/public/JSON/coords.js";
 import { useRouter } from 'next/navigation'
-import { motion } from 'framer-motion';
-import useMousePosition from './useMousePosition';
-import { useState } from "react";
-import transition from "./transition";
 
 function Home () {
   const router = useRouter();
