@@ -55,7 +55,7 @@ button:hover, select {
   border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb {
-  background: #82675D;
+  background: #2e2625;
   border-radius: 10px;
   width : 0.3em;
   height : 0.3em;
@@ -400,16 +400,8 @@ img.pageImg {
   margin: 0 10em;
 }
 
-.img-mapper-area-highlighted:hover {
-  cursor: url("/cursors/click.gif") 5 5, pointer;
-  -webkit-animation: cursor 400ms infinite;
-  animation: cursor 400ms infinite;
-}
-
-.img-mapper-area-highlighted {
-  cursor: url("/cursors/click.gif") 5 5, pointer;
-  -webkit-animation: cursor 400ms infinite;
-  animation: cursor 400ms infinite;
+img.mapster {
+  cursor: help;
 }
 
 /* HOMEPAGE */
