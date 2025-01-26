@@ -23,6 +23,7 @@ export default function Credits() {
             <li>Personal avatar by me via <a href="https://www.avatarsinpixels.com/">Avatars in Pixels</a></li>
             <li>TV frame by me</li>
             <li>4K static gif for background via <a href="https://cliply.co/clip/static-noise/">Cliply.co</a> </li>
+            <li>Custom pixel cursors by <a href="http://www.rw-designer.com/cursor-set/pixel">ten via rw-designer</a></li>
         </ul>
         <h3>Fonts</h3>
         <ul>
