@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function AboutMe() {
   return (
@@ -7,7 +8,10 @@ export default function AboutMe() {
         <Link className="link" href="/"> &lt; Home </Link>
         <h1>About Me</h1>
         <div className='aboutme'>
-            <img className="avatar" src="/avatar.png"></img>
+            <Image 
+              width={250} height={250} alt={"Pixel art of website author."} 
+              className="avatar" src="/avatar.png"
+            />
             <div className='aboutmeTxt'>
                 <h2>A little about me...</h2>
                 <p>

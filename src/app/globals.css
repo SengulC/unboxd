@@ -38,8 +38,8 @@ div#test {
 }
 
 button:hover, select {
-/* cursor: url("/cursors/click.gif") 10 10, pointer; */
-  cursor: url("/cursors/click.gif") 10 10, pointer;
+/* cursor: url("/cursors/click.gif") 5 5, pointer; */
+  cursor: url("/cursors/click.gif") 5 5, pointer;
   -webkit-animation: cursor 400ms infinite;
   animation: cursor 400ms infinite;
 }
@@ -86,7 +86,7 @@ h3 {
 .link {
   font-size: x-large;
   color: #953B11;
-  cursor: url("/cursors/click.gif") 10 10, pointer;
+  cursor: url("/cursors/click.gif") 5 5, pointer;
   -webkit-animation: cursor 400ms infinite;
   animation: cursor 400ms infinite;
 }
@@ -97,7 +97,7 @@ a {
 
 a:hover {
   color: #b74a18;
-  cursor: url("/cursors/click.gif") 10 10, pointer;
+  cursor: url("/cursors/click.gif") 5 5, pointer;
   -webkit-animation: cursor 400ms infinite;
   animation: cursor 400ms infinite;
 }
@@ -156,7 +156,7 @@ p {
 
 
 img.moviePoster:hover {
-  cursor: url("/cursors/click.gif") 10 10, pointer;
+  cursor: url("/cursors/click.gif") 5 5, pointer;
   -webkit-animation: cursor 400ms infinite;
   animation: cursor 400ms infinite;
 }
@@ -401,13 +401,13 @@ img.pageImg {
 }
 
 .img-mapper-area-highlighted:hover {
-  cursor: url("/cursors/click.gif") 10 10, pointer;
+  cursor: url("/cursors/click.gif") 5 5, pointer;
   -webkit-animation: cursor 400ms infinite;
   animation: cursor 400ms infinite;
 }
 
 .img-mapper-area-highlighted {
-  cursor: url("/cursors/click.gif") 10 10, pointer;
+  cursor: url("/cursors/click.gif") 5 5, pointer;
   -webkit-animation: cursor 400ms infinite;
   animation: cursor 400ms infinite;
 }

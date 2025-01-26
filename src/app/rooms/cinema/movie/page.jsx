@@ -5,7 +5,7 @@ import { useSearchParams } from 'next/navigation';
 import moviesData from "/public/JSON/movies.json";
 import Link from 'next/link';
 import Stars from './Stars';
-
+import Image from 'next/image';
 
 export default function Movie() {
   const searchParams = useSearchParams();
@@ -50,7 +50,13 @@ export default function Movie() {
           <Link className="link" href="/rooms/cinema/"> &lt; Cinema </Link>
           <div className='moviePage'>
               <div className='moviePageImg'>
-                  <img className="moviePoster focus" src={movieData.image}></img>
+                  <Image 
+                    className="moviePoster focus" 
+                    src={movieData.image}
+                    width={2765}
+                    height={4096}
+                    alt={`Poster of the movie/show ${movieName}`}
+                  />
               </div>
               <div className='moviePageData'>
                     <h1>{movieName}</h1>
