@@ -29,7 +29,7 @@ export default function Cinema() {
   }, [chosenTag])
   
   return (
-    <body className='cinema'>
+    <div className='cinema'>
       <Link className="link" href="/"> &lt; Home </Link>
       <h1>Cinema</h1>
 
@@ -43,6 +43,6 @@ export default function Cinema() {
       <div className='cinemaGrid'>
         {movies}
       </div>
-    </body>
+    </div>
   );
 }

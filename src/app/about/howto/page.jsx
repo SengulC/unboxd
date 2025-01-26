@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function AboutMe() {
   return (
-    <body className='about'>
+    <div className='about'>
         <Link className="link" href="/"> &lt; Home </Link>
         <h1>?</h1>
         <h2>What is this website?</h2>
@@ -50,6 +50,6 @@ export default function AboutMe() {
         <p>
         So just try to <span className='emphasis'>find the ~special~ objects and click</span> on them to see where they lead you!
         </p>
-    </body>
+    </div>
   )
 }

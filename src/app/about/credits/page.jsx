@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function Credits() {
   return (
-    <body className='about'>
+    <div className='about'>
         <Link className="link" href="/"> &lt; Home </Link>
         <h1>Credits</h1>
         <h3>React Libraries & html/css Tutorials</h3>
@@ -37,6 +37,6 @@ export default function Credits() {
             <li><a href="https://www.imdb.com/">IMDb</a></li>
             <li><a href="https://www.letterboxd.com/">Letterboxd</a></li>
         </ul>
-    </body>
+    </div>
   )
 }

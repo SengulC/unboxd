@@ -10,7 +10,7 @@ function Home () {
   // const size = isHovered ? 800 : 40;
 
   return (
-    <body className="home">
+    <div className="home">
       {/* <motion.div 
         className={"mask"}
         animate={{
@@ -34,7 +34,7 @@ function Home () {
           }}
           // onMouseEnter={() => {setIsHovered(true)}} onMouseLeave={() => {setIsHovered(false)}}
             />
-    </body>
+    </div>
   );
 }
 

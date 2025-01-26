@@ -16,11 +16,11 @@ export default function Kitchen() {
   }, []); 
     
   if (!kitchenCoords) {
-    return (<body className="kitchen"><h1 id='loading'>Loading...</h1></body>)
+    return (<div className="kitchen"><h1 id='loading'>Loading...</h1></div>)
   }
   
   return (
-    <body className="kitchen">
+    <div className="kitchen">
       <div className="tvbgContainer">
         <ImageMapper className="tvbg"
           map={{
@@ -45,6 +45,6 @@ export default function Kitchen() {
       {showBook && 
         <RecipeBook setShowBook={setShowBook}/>
       }
-    </body>
+    </div>
   );
 }
