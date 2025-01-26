@@ -36,7 +36,7 @@ export default function Movie() {
   if (!movieData) {
     return (
       <div className='cinema'>
-        <Link className="link" href="/"> &lt; Home </Link>
+        <Link className="link" href="/"> 📺 </Link>
         <Link className="link" href="/rooms/cinema/"> &lt; Cinema </Link>
         <h1>Loading...</h1>
         {notFound&&<h3>No such movie or show found in database.</h3>} 
@@ -46,12 +46,12 @@ export default function Movie() {
   } else {
     return (
       <div className='cinema'>
-          <Link className="link" href="/"> &lt; Home </Link>
+          <Link className="link" href="/"> 📺 </Link>
           <Link className="link" href="/rooms/cinema/"> &lt; Cinema </Link>
           <div className='moviePage'>
               <div className='moviePageImg'>
                   <Image 
-                    className="moviePoster focus" 
+                    className="focus" 
                     src={movieData.image}
                     width={2765}
                     height={4096}

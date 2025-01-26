@@ -6,7 +6,7 @@
         "synopsis": "Amid the stark discord of twin cities Piltover and Zaun, two sisters fight on rival sides of a war between magic technologies and clashing convictions.",
         "review": "Oh my god, amazing. Who would've thought League of Legends would've provided the lore for one of the best animated shows to ever exist. Or just shows in general. Redefined TV for me, some of the greatest implementations of 'show not tell' in recent TV, and with the abundance of spoon-feeding streaming shows, this was such a gem. Needless to say that it has impeccable animation, and such a creative approach to characterization that it almost made me re-install Maya. Great character development, and deterioration when called for - perfection.",
         "image": "/cinema/arcane.jpg",
-        "tags": ["tv", "favorites", "world-building", "character-development", "cinema!tography", "insanely-immersive", "all"]
+        "tags": ["tv", "animation", "favorites", "world-building", "character-development", "cinema!tography", "insanely-immersive", "all"]
     },
     "The Bear": {
         "title": "The Bear",
@@ -35,7 +35,7 @@
         "synopsis": "Love blossoms between a young woman on the margins of society and a disenfranchised drifter as they embark on a 3,000-mile odyssey through the backroads of America. However, despite their best efforts, all roads lead back to their terrifying pasts and a final stand that will determine whether their love can survive their differences.",
         "review": "Although the tale of a gruesome couple, unravelling Maren and Lee's story (and their victims) does more damage to the heart than the stomach. A beautiful coming-of-age love story with even more beautiful cinematography accompanied by the most beautiful couple. Grossly lacking Ethel Cain in the score though.",
         "image": "/cinema/bonesandall.jpg",
-        "tags": ["film", "romance", "favorites", "cinema!tography", "all"]
+        "tags": ["film", "romance", "cinema!tography", "all"]
     },
     "I Saw the TV Glow": {
         "title": "I Saw the TV Glow",
@@ -55,7 +55,7 @@
         "review": "One of the OGs. So so ahead of its time, will never get sick of the world and lore of Avatar. No live action or ATLA rip off can ever replicate what they did with this one! Mandatory viewing for my future children for sure.",
         "image": "/cinema/atla.jpg",
         "watchCount": 2,
-        "tags": ["tv", "favorites", "character-development", "world-building", "all"]
+        "tags": ["tv", "animation", "favorites", "character-development", "world-building", "all"]
     },
     "Alice in Borderland": {
         "title": "Alice in Borderland",
@@ -93,5 +93,32 @@
         "review": "Interesting class, race, intersectionality discussions; and at the end of the day a deeply complex portrayal of familial relationships. Wish I had read the book beforehand, it's so obvious from its rich subtext and characterization that it's an adaptation.",
         "image": "/cinema/fires.jpg",
         "tags": ["tv", "character-development", "world-building", "romance", "all"]
+    },
+    "Abbott Elementary": {
+        "title": "Abbott Elementary",
+        "director": "Quinta Brunson",
+        "stars": 4.5,
+        "synopsis": "A workplace comedy centered on a group of dedicated teachers - and an oblivious principal - in a Philadelphia public school where, despite the odds stacked against them, they are determined to help their students succeed in life.",
+        "review": "One of the funniest, and definitely the most wholesome sitcoms I've ever seen! Still makes me EL-Oh-EL after 4 seasons. Janine and Gregory's romance will go down in sit(rom)com history :') and NO Janine hate will not be tolerated! Unless you're Ava. Or Barbara... or Melissa... or her sister played by Ayo Edebiri (please come back).",
+        "image": "/cinema/abbott.jpg",
+        "tags": ["tv", "comedy", "romance", "favorites", "all"]
+    },
+    "It's Always Sunny in Philadelphia": {
+        "title": "It's Always Sunny in Philadelphia",
+        "director": "Rob McElhenney",
+        "stars": 4.5,
+        "synopsis": "In Philadelphia, five toxically co-dependent and selfishly motivated w̶h̶i̶t̶e̶ t̶r̶a̶s̶h̶ friends run a decrepit Irish bar that bears witness to all kinds of trickery.",
+        "review": "Error 404. Not found. For ANY records, I do not enjoy this show.",
+        "image": "/cinema/sunny.jpg",
+        "tags": ["tv", "comedy", "satire", "all"]
+    },
+    "Ratatouille": {
+        "title": "Ratatouille",
+        "director": "Brad Bird, Jan Pinkava",
+        "stars": 5,
+        "synopsis": "Remy, a resident of Paris, appreciates good food and has quite a sophisticated palate. He would love to become a chef so he can create and enjoy culinary masterpieces to his heart's delight. The only problem is, Remy is a rat. When he winds up in the sewer beneath one of Paris' finest restaurants, the rodent gourmet finds himself ideally placed to realize his dream.",
+        "review": "My favorite Pixar/Disney/Children's/(ANIMATION EVEN..?) movie by far. The iconic strawberry & cheese scene single-rat-handedly changed the way I eat and enjoy food.",
+        "image": "/cinema/ratat.jpeg",
+        "tags": ["film", "comedy", "favorites", "animation", "all"]
     }
 }

@@ -5,7 +5,7 @@ import Image from 'next/image'
 export default function AboutMe() {
   return (
     <div className='about'>
-        <Link className="link" href="/"> &lt; Home </Link>
+        <Link className="link" href="/"> 📺 </Link>
         <h1>About Me</h1>
         <div className='aboutme'>
             <Image 

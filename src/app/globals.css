@@ -148,12 +148,9 @@ p {
 .moviePoster {
   height: 20em;
   width: auto;
-  /* border: 0.1em solid rgb(67, 31, 25); */
   border-radius: 0.3em;
   box-shadow: rgba(183, 74, 24, 0.4) 5px 5px, rgba(183, 74, 24, 0.3) 10px 10px, rgba(183, 74, 24, 0.2) 15px 15px, rgba(183, 74, 24, 0.1) 20px 20px, rgba(183, 74, 24, 0.05) 25px 25px;
 }
-
-
 
 img.moviePoster:hover {
   cursor: url("/cursors/click.gif") 5 5, pointer;
@@ -161,19 +158,27 @@ img.moviePoster:hover {
   animation: cursor 400ms infinite;
 }
 
-  @-webkit-keyframes cursor {
+.focus {
+  height: 30em;
+  width: auto;
+  border-radius: 0.3em;
+  box-shadow: rgba(183, 74, 24, 0.4) 5px 5px, rgba(183, 74, 24, 0.3) 10px 10px, rgba(183, 74, 24, 0.2) 15px 15px, rgba(183, 74, 24, 0.1) 20px 20px, rgba(183, 74, 24, 0.05) 25px 25px;
+}
+
+img.focus:hover {
+  cursor: url("/cursors/pixel.cur"), default;
+} 
+
+/* POINTER CURSOR ANIM */
+@-webkit-keyframes cursor {
   0% {cursor: url("/cursors/click.gif"), pointer;}
   100% {cursor: url("/cursors/click2.cur"), pointer;}
 } 
 
-  @keyframes cursor {
+@keyframes cursor {
   0% {cursor: url("/cursors/click.gif"), pointer;}
   100% {cursor: url("/cursors/click2.cur"), pointer;}
 }
-
-img.focus.moviePoster:hover {
-  cursor: url("/cursors/pixel.cur"), default;
-} 
 
 /* MOVIEPAGE */
 .moviePage {
@@ -181,11 +186,6 @@ img.focus.moviePoster:hover {
   grid-template-columns: 1fr 3fr;
   gap: 5em;
   padding: 3em;
-}
-
-.moviePageImg > .moviePoster {
-  height: 30em;
-  width: auto;
 }
 
 .moviePageData {
@@ -400,9 +400,9 @@ img.pageImg {
   margin: 0 10em;
 }
 
-img.mapster {
+/* img.mapster {
   cursor: help;
-}
+} */
 
 /* HOMEPAGE */
 

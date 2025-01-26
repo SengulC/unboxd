@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function Credits() {
   return (
     <div className='about'>
-        <Link className="link" href="/"> &lt; Home </Link>
+        <Link className="link" href="/"> 📺 </Link>
         <h1>Credits</h1>
         <h3>React Libraries & html/css Tutorials</h3>
         <ul>
