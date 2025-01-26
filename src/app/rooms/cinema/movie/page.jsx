@@ -35,17 +35,17 @@ export default function Movie() {
 
   if (!movieData) {
     return (
-      <body className='cinema'>
+      <div className='cinema'>
         <Link className="link" href="/"> &lt; Home </Link>
         <Link className="link" href="/rooms/cinema/"> &lt; Cinema </Link>
         <h1>Loading...</h1>
         {notFound&&<h3>No such movie or show found in database.</h3>} 
         {/* WHY THE LAGGG */}
-      </body>
+      </div>
     )
   } else {
     return (
-      <body className='cinema'>
+      <div className='cinema'>
           <Link className="link" href="/"> &lt; Home </Link>
           <Link className="link" href="/rooms/cinema/"> &lt; Cinema </Link>
           <div className='moviePage'>
@@ -66,7 +66,7 @@ export default function Movie() {
                   </ul>
               </div>
           </div>
-      </body>
+      </div>
     );
   }
 }

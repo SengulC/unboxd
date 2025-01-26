@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function AboutMe() {
   return (
-    <body className='about'>
+    <div className='about'>
         <Link className="link" href="/"> &lt; Home </Link>
         <h1>About Me</h1>
         <div className='aboutme'>
@@ -64,6 +64,6 @@ export default function AboutMe() {
                 </ul>
             </div>
         </div>
-    </body>
+    </div>
   )
 }
