@@ -32,7 +32,7 @@ export default function AboutMe() {
                 <p>
                   <span className='emphasis'>So welcome inside my messy brain! </span> 
                   I am debating adding a comments section on here but in the meantime,
-                  you can <span className='emphasis'>contact me</span> by email <a href="mailto:">here</a> 
+                  you can <span className='emphasis'>contact me</span> by email <a href="mailto:">(coming soon)</a> 
                    <span className='comment'> to discuss anything web or media related! </span>
                   And below I will list <span className='comment'>my ~ever-changing~ </span>favorites in movies, 
                   shows and songs. <span className='emphasis'>Thanks for checking out Unboxd!</span>
