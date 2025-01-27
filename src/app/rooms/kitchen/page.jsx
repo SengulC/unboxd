@@ -24,10 +24,8 @@ export default function Kitchen() {
     <div className="kitchen">
       <div className="tvbgContainer">
         <ImageMapper className="tvbg"
-          map={{
-              name:"my-map", 
-              areas: kitchenCoords
-              }}
+          name={"kitchen-map"}
+          areas={ kitchenCoords}
           src={'/background/kitchenpage.png'}
           active={true}
           responsive={true}

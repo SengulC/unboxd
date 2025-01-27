@@ -8,11 +8,8 @@ function Home () {
   return (
     <div className="home">
         <ImageMapper
-          map={{
-              name:"my-map", 
-              areas: coords.homeCoords,
-              className: "mapster"
-              }}
+          name={"home-map"}
+          areas={ coords.homeCoords}
           src={'background/homepage.png'}
           active={true}
           responsive={true}
