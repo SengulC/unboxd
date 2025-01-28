@@ -1,3 +1,4 @@
+// animation for movie page
 "use client";
 
 import { motion } from "framer-motion";

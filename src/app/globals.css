@@ -235,14 +235,19 @@ span.emphasis {
   color: #7a57ae;
 }
 
-span.comment {
+.comment {
   font-style: italic;
-  color: #857A96;
+  color: #8c72b1;
+}
+
+.commentSecondary {
+  font-style: italic;
+  color: #b18872;
 }
 
 h2 > span.comment {
   font-style: italic;
-  color: #857A96;
+  color: #8c72b1;
   font-size: small;
 }
 

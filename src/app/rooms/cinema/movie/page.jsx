@@ -12,6 +12,7 @@ export default function Movie() {
   const [movieName, setMovieName] = useState("Unknown");
   const [movieData, setMovieData] = useState(null);
   const [movieTags, setMovieTags] = useState([]);
+  const [favs, setFavs] = useState([]);
   const [notFound, setNotFound] = useState(false);
 
   useEffect(() => {
@@ -26,6 +27,7 @@ export default function Movie() {
       setNotFound(false);
       setMovieData(moviesData[movieName]);
       setMovieTags(moviesData[movieName].tags);
+      setFavs(moviesData[movieName].favs);
     } else {
       setNotFound(true);
       setMovieData(null); // Reset if movieName is invalid
@@ -64,8 +66,21 @@ export default function Movie() {
                     <div> <Stars rating={movieData.stars}/> </div> <br/>
                     <div id='synopsis'> {movieData.synopsis} </div> <br/>
                     <div id='review'> {movieData.review} </div> <br/>
-                    { movieData.watchCount && <div> <span className='comment'> 
-                      (re)watch count: {movieData.watchCount} </span></div>}
+                    { 
+                      movieData.watchCount && 
+                      <div> <span className='comment'> 
+                      (re)watch count: {movieData.watchCount} </span></div> 
+                    }
+                    <br/>
+                    
+                    { 
+                      movieData.favs && 
+                      <div className='commentSecondary'>
+                        favorites: {favs.map((epi, i)=> 
+                        <span key={epi}> {i!==favs.length-1 ? `${epi},` : `${epi}.`} </span> 
+                        )}
+                      </div>
+                    }
                   <ul id='tags'>
                       {/* {movieData.tags} */}
                       {movieTags.map((tag)=> <li className='tag' key={tag}>{tag}</li>)}

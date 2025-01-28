@@ -16,7 +16,8 @@
         "review": "My favorite show in recent times. I came across it randomly in my 2nd year of university and the sincere approach to a chef's storyline and film-level cinematography captivated me. I've rewatched it like 2 times now and that fishes episode still hits the same.",
         "image": "/cinema/thebear.jpg",
         "watchCount": 2,
-        "tags": ["tv", "favorites", "cinema!tography", "all"]
+        "tags": ["tv", "favorites", "cinema!tography", "all"],
+        "favs": ["Sheridan", "Honeydew", "Forks", "Fishes", "Bolognese", "Omelette"]
     },
     "Bottoms": {
         "title": "Bottoms",
@@ -83,7 +84,8 @@
         "synopsis": "In the wake of a zombie apocalypse, various survivors struggle to stay alive. As they search for safety and evade the undead, they are forced to grapple with rival groups and difficult choices.",
         "review": "Incredible. How does it not even get remotely uninteresting or not hit the same after SO many seasons?? Currently on season seven, grieving Glenn </3",
         "image": "/cinema/twd.png",
-        "tags": ["favorites", "tv", "cinema!tography", "character-development", "insanely-immersive", "romance", "all"]
+        "tags": ["favorites", "tv", "cinema!tography", "character-development", "insanely-immersive", "romance", "all"],
+        "favs": ["Hershel's farm", "The Governor's entrance", "Negan's entrance"]
     },
     "Little Fires Everywhere": {
         "title": "Little Fires Everywhere",
@@ -101,7 +103,8 @@
         "synopsis": "A workplace comedy centered on a group of dedicated teachers - and an oblivious principal - in a Philadelphia public school where, despite the odds stacked against them, they are determined to help their students succeed in life.",
         "review": "One of the funniest, and definitely the most wholesome sitcoms I've ever seen! Still makes me EL-Oh-EL after 4 seasons. Janine and Gregory's romance will go down in sit(rom)com history :') and NO Janine hate will not be tolerated! Unless you're Ava. Or Barbara... or Melissa... or her sister played by Ayo Edebiri (please come back).",
         "image": "/cinema/abbott.jpg",
-        "tags": ["tv", "comedy", "romance", "favorites", "all"]
+        "tags": ["tv", "comedy", "romance", "favorites", "all"],
+        "favs": ["Dad fight", "Winter show", "Winter break"]
     },
     "It's Always Sunny in Philadelphia": {
         "title": "It's Always Sunny in Philadelphia",
