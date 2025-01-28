@@ -44,8 +44,8 @@ export default function AboutMe() {
 
                 <hr></hr>
 
-                <h2>My Favorites <span className='comment'>(subject to change!!)</span></h2>
-                <h3>My Favorite Movies</h3>
+                <h2>My favorites <span className='comment'>(subject to change!!)</span></h2>
+                <h3>My favorite movies</h3>
                 <ul id="movies" className='rankingList'>
                   <li className='ranking'>Bottoms</li>
                   <li className='ranking'>I Saw the TV Glow</li>
@@ -53,14 +53,14 @@ export default function AboutMe() {
                   <li className='ranking'>Superbad</li>
                 </ul>
 
-                <h3>My Favorite Shows</h3>
+                <h3>My favorite shows</h3>
                 <ul id="shows" className='rankingList'>
                   <li className='ranking'>The Bear</li>
                   <li className='ranking'>Arcane</li>
                   <li className='ranking'>The Walking Dead</li>
                 </ul>
 
-                <h3>My Favorite Songs</h3>
+                <h3>My favorite songs</h3>
                 <ul id="music" className='rankingList'>
                   <li className='ranking'>Strangers by Ethel Cain</li>
                   <li className='ranking'>Boys of Faith by Zach Bryan ft Bon Iver</li>

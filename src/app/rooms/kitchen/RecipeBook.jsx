@@ -16,7 +16,7 @@ const PageCover = React.forwardRef((props, ref) => {
     <div className={`page page-cover ${props.side}`} ref={ref} data-density="hard">
       {props.side == "R" && <button onClick={handleClick} className="closeBookBtn">X</button>}
       <div className="page-content">
-          <h2>{props.children}</h2>
+          <h1>{props.children}</h1>
       </div>
     </div>
   );

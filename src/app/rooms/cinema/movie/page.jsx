@@ -60,7 +60,7 @@ export default function Movie() {
               </div>
               <div className='moviePageData'>
                     <h1>{movieName}</h1>
-                    <h2>{movieData.director}</h2>
+                    <h2 className='dir'> from the mind(s) of {movieData.director}</h2>
                     <div> <Stars rating={movieData.stars}/> </div> <br/>
                     <div id='synopsis'> {movieData.synopsis} </div> <br/>
                     <div id='review'> {movieData.review} </div> <br/>
