@@ -1,13 +1,17 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function AboutMe() {
   return (
     <div className='about'>
-        <Link className="link" href="/"> &lt; Home </Link>
+        <Link className="link" href="/"> 📺 </Link>
         <h1>About Me</h1>
         <div className='aboutme'>
-            <img className="avatar" src="/avatar.png"></img>
+            <Image 
+              width={250} height={250} alt={"Pixel art of website author."} 
+              className="avatar" src="/avatar.png"
+            />
             <div className='aboutmeTxt'>
                 <h2>A little about me...</h2>
                 <p>
@@ -40,8 +44,8 @@ export default function AboutMe() {
 
                 <hr></hr>
 
-                <h2>My Favorites <span className='comment'>(subject to change!!)</span></h2>
-                <h3>My Favorite Movies</h3>
+                <h2>My favorites <span className='comment'>(subject to change!!)</span></h2>
+                <h3>My favorite movies</h3>
                 <ul id="movies" className='rankingList'>
                   <li className='ranking'>Bottoms</li>
                   <li className='ranking'>I Saw the TV Glow</li>
@@ -49,14 +53,14 @@ export default function AboutMe() {
                   <li className='ranking'>Superbad</li>
                 </ul>
 
-                <h3>My Favorite Shows</h3>
+                <h3>My favorite shows</h3>
                 <ul id="shows" className='rankingList'>
                   <li className='ranking'>The Bear</li>
                   <li className='ranking'>Arcane</li>
                   <li className='ranking'>The Walking Dead</li>
                 </ul>
 
-                <h3>My Favorite Songs</h3>
+                <h3>My favorite songs</h3>
                 <ul id="music" className='rankingList'>
                   <li className='ranking'>Strangers by Ethel Cain</li>
                   <li className='ranking'>Boys of Faith by Zach Bryan ft Bon Iver</li>

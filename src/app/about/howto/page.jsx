@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function AboutMe() {
   return (
     <div className='about'>
-        <Link className="link" href="/"> &lt; Home </Link>
+        <Link className="link" href="/"> 📺 </Link>
         <h1>?</h1>
         <h2>What is this website?</h2>
         <p>

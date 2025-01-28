@@ -30,7 +30,7 @@ export default function Cinema() {
   
   return (
     <div className='cinema'>
-      <Link className="link" href="/"> &lt; Home </Link>
+      <Link className="link" href="/"> 📺 </Link>
       <h1>Cinema</h1>
 
       <div className='filter'>

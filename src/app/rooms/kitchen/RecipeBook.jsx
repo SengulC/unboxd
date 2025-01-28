@@ -1,9 +1,11 @@
+// recipebook relevant React components
 "use client"
 import HTMLFlipBook from "react-pageflip";
 import React from "react";
 import recipes from "/public/JSON/recipes.JSON";
 import { useRef, useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const PageCover = React.forwardRef((props, ref) => {
   const handleClick = (e) => {
@@ -14,7 +16,7 @@ const PageCover = React.forwardRef((props, ref) => {
     <div className={`page page-cover ${props.side}`} ref={ref} data-density="hard">
       {props.side == "R" && <button onClick={handleClick} className="closeBookBtn">X</button>}
       <div className="page-content">
-          <h2>{props.children}</h2>
+          <h1>{props.children}</h1>
       </div>
     </div>
   );
@@ -31,7 +33,13 @@ const Page = React.forwardRef((props, ref) => {
       <div className="page-content">
         <h2 className="page-header">{props.header}</h2>
         <div className="page-image"></div>
-        {props.src!=="" && <img className="pageImg" src={props.src}></img>}
+        {
+          props.src!=="" && 
+          <Image 
+            className="pageImg" src={props.src}
+            width={1000} height={1000} alt={`Photo of: ${props.header}.`}
+          />
+        }
         <div className="page-text">{props.children}</div>
         {/* <div className="page-footer">{props.number + 1}</div> */}
       </div>

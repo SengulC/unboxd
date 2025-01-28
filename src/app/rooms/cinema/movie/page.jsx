@@ -5,13 +5,14 @@ import { useSearchParams } from 'next/navigation';
 import moviesData from "/public/JSON/movies.json";
 import Link from 'next/link';
 import Stars from './Stars';
-
+import Image from 'next/image';
 
 export default function Movie() {
   const searchParams = useSearchParams();
   const [movieName, setMovieName] = useState("Unknown");
   const [movieData, setMovieData] = useState(null);
   const [movieTags, setMovieTags] = useState([]);
+  const [favs, setFavs] = useState([]);
   const [notFound, setNotFound] = useState(false);
 
   useEffect(() => {
@@ -26,6 +27,7 @@ export default function Movie() {
       setNotFound(false);
       setMovieData(moviesData[movieName]);
       setMovieTags(moviesData[movieName].tags);
+      setFavs(moviesData[movieName].favs);
     } else {
       setNotFound(true);
       setMovieData(null); // Reset if movieName is invalid
@@ -36,7 +38,7 @@ export default function Movie() {
   if (!movieData) {
     return (
       <div className='cinema'>
-        <Link className="link" href="/"> &lt; Home </Link>
+        <Link className="link" href="/"> 📺 </Link>
         <Link className="link" href="/rooms/cinema/"> &lt; Cinema </Link>
         <h1>Loading...</h1>
         {notFound&&<h3>No such movie or show found in database.</h3>} 
@@ -46,20 +48,39 @@ export default function Movie() {
   } else {
     return (
       <div className='cinema'>
-          <Link className="link" href="/"> &lt; Home </Link>
+          <Link className="link" href="/"> 📺 </Link>
           <Link className="link" href="/rooms/cinema/"> &lt; Cinema </Link>
           <div className='moviePage'>
               <div className='moviePageImg'>
-                  <img className="moviePoster focus" src={movieData.image}></img>
+                  <Image 
+                    className="focus" 
+                    src={movieData.image}
+                    width={2765}
+                    height={4096}
+                    alt={`Poster of the movie/show ${movieName}`}
+                  />
               </div>
               <div className='moviePageData'>
                     <h1>{movieName}</h1>
-                    <h2>{movieData.director}</h2>
+                    <h2 className='dir'> from the mind(s) of {movieData.director}</h2>
                     <div> <Stars rating={movieData.stars}/> </div> <br/>
                     <div id='synopsis'> {movieData.synopsis} </div> <br/>
                     <div id='review'> {movieData.review} </div> <br/>
-                    { movieData.watchCount && <div> <span className='comment'> 
-                      (re)watch count: {movieData.watchCount} </span></div>}
+                    { 
+                      movieData.watchCount && 
+                      <div> <span className='comment'> 
+                      (re)watch count: {movieData.watchCount} </span></div> 
+                    }
+                    <br/>
+                    
+                    { 
+                      movieData.favs && 
+                      <div className='commentSecondary'>
+                        favorites: {favs.map((epi, i)=> 
+                        <span key={epi}> {i!==favs.length-1 ? `${epi},` : `${epi}.`} </span> 
+                        )}
+                      </div>
+                    }
                   <ul id='tags'>
                       {/* {movieData.tags} */}
                       {movieTags.map((tag)=> <li className='tag' key={tag}>{tag}</li>)}
