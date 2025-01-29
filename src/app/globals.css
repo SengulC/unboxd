@@ -21,7 +21,10 @@
   z-index: 1;
 }
 
-html, body, #__next { height: 100%; }
+html, body, #__next { 
+  height: 100%;
+  /* width: 100%;  */
+}
 
 body {
   cursor: url("/cursors/pixel.cur"), default;
@@ -125,6 +128,16 @@ p {
   /* width: 100%; height: 100%; */
 }
 
+.loading {
+  min-height: 100%;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  > #no {
+    text-align: center;
+  }
+}
+
 .cinemaGrid {
   display: grid;
   grid-template-columns: repeat(4, 1fr); 
@@ -173,6 +186,26 @@ img.moviePoster:hover {
 img.focus:hover {
   cursor: url("/cursors/pixel.cur"), default;
 } 
+
+/* CUSTOM SELECT */
+select {
+  appearance: none; /* remove default appearance set by the browser */
+  outline: none; /* remove the outline shown on focus */
+  border: 2px solid rgb(19, 19, 21);
+  border-radius: 5px;
+  box-shadow: 5px 8px 5px rgba(0, 0, 0, 0.8);
+
+  padding: 5px 10px;
+  width: auto;
+  height: auto;
+
+  font-size: smaller;
+  text-align: center;
+}
+
+select:focus {
+  outline: 1.5px dashed rgb(183, 74, 24);
+}
 
 /* POINTER CURSOR ANIM */
 @-webkit-keyframes cursor {
