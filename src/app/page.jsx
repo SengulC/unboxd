@@ -3,7 +3,7 @@ import ImageMapper from "react-img-mapper";
 import coords from "/public/JSON/coords.js";
 import { useRouter } from 'next/navigation'
 
-function Home () {
+export default function Home () {
   const router = useRouter();
   return (
     <div className="home">
@@ -22,4 +22,3 @@ function Home () {
   );
 }
 
-export default (Home);

@@ -320,6 +320,40 @@ ul.rankingList li {
   font-size: x-large;
 }
 
+/* GAMES ROOM */
+
+.gamesRoom {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+  overflow: hidden; /* Ensure nothing overflows */
+}
+
+.gamesRoomImg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the image */
+  width: 900px; 
+  height: auto; 
+  z-index: -1; /* Place the image behind other content */
+}
+
+.gamesContainer {
+  background-color: white;
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1; /* Ensure the container is above the background image */
+  text-align: center;
+  width: 700px;
+  height: 400px
+}
+
+
 /* KITCHEN */
 
 div.kitchen {
