@@ -123,5 +123,14 @@
         "review": "My favorite Pixar/Disney/Children's/(ANIMATION EVEN..?) movie by far. The iconic strawberry & cheese scene single-rat-handedly changed the way I eat and enjoy food.",
         "image": "/cinema/ratat.jpeg",
         "tags": ["film", "comedy", "favorites", "animation", "all"]
+    },
+    "Zola": {
+        "title": "Zola",
+        "director": "Janicza Bravo, Jeremy O. Harris",
+        "stars": 4.5,
+        "synopsis": "'Y'all wanna hear a story about why me & this bitch here fell out? It's kind of long but full of suspense.' Thus began the odyssey of one A'Ziah King, aka Zola. Zola's stranger than fiction saga, which she first told in a now iconic series of viral, uproarious tweets, comes to dazzling cinematic life.",
+        "review": "Inspired by The Twitter thread ever, and it shows. Beautiful exploration of social media as a vehicle of storytelling and as the lens through which we originally got to learn of this story. Acting, comedic timing and editing also DELIVERED. The editing was so good it got me stalking the editor! Wow!! Eurphoria and Anora taste like reheated nachos after finally getting to watch this...",
+        "image": "/cinema/zola.jpg",
+        "tags": ["film", "comedy", "cinema!tography", "satire", "all"]
     }
 }
