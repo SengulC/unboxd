@@ -45,18 +45,28 @@ button:hover, select {
   animation: cursor 400ms infinite;
 }
 
-/* scrollbar design *
-  width: 0.3em;
-  height: 0.3em;
-  background : transparent;
-  border-radius: 10px;
+/* scrollbar design  */
+/* ::-webkit-scrollbar {
+    width: 0.3em;
+    height: 0.3em;
+    background : transparent;
+    border-radius: 10px;
+  }
 
+::-webkit-scrollbar-track {
   border-radius: 10px;
+}
 
+::-webkit-scrollbar-thumb {
   background: #2e2625;
   border-radius: 10px;
   width : 0.3em;
   height : 0.3em;
+} */
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(46, 46, 46) rgb(68, 68, 68);
 }
 
 /* FONTS AND HEADERS */
@@ -115,7 +125,6 @@ p {
 }
 
 /* CINEMA */
-
 .cinema {
   background-image: url("/background/static2.gif");
   background-color: rgba(0, 0, 0, 0.4);

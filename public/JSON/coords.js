@@ -88,6 +88,24 @@ let homeCoords = [
         "strokeColor": "rgba(0,0,0,0)",
         "lineWidth": 2.5,
         "coords": [633,737,686,790]
+    },
+    {
+      "id": "controller",
+      "title": "/rooms/games",
+      "shape": "poly",
+      "fillColor": "rgba(0,0,0,0)",
+      "strokeColor": "rgba(0,0,0,0)",
+      "lineWidth": 2.5,
+      "coords": [232,496,235,528,213,538,215,518,206,491]
+    },
+    {
+      "id": "console",
+      "title": "/rooms/games",
+      "shape": "poly",
+      "fillColor": "rgba(0,0,0,0)",
+      "strokeColor": "rgba(0,0,0,0)",
+      "lineWidth": 2.5,
+      "coords": [737,187,682,208,681,228,705,235,737,226,767,214,762,192]
     }
 ];
 
