@@ -33,7 +33,7 @@ export default function Kitchen() {
           width={900}
           onClick={(e) => {
             // if it's one of the buttons, redirect there
-            (e.title == "/about/me/" || e.title == "/about/credits/" || e.title == "") ? router.push(e.title) 
+            (e.title == "/about/me/" || e.title == "/about/credits/" || e.title == "/") ? router.push(e.title) 
             : // else show book
             setShowBook(!showBook);
           }}
