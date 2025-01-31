@@ -21,7 +21,10 @@
   z-index: 1;
 }
 
-html, body, #__next { height: 100%; }
+html, body, #__next { 
+  height: 100%;
+  /* width: 100%;  */
+}
 
 body {
   cursor: url("/cursors/pixel.cur"), default;
@@ -125,6 +128,16 @@ p {
   /* width: 100%; height: 100%; */
 }
 
+.loading {
+  min-height: 100%;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  > #no {
+    text-align: center;
+  }
+}
+
 .cinemaGrid {
   display: grid;
   grid-template-columns: repeat(4, 1fr); 
@@ -152,7 +165,7 @@ p {
 
 .moviePoster {
   height: 20em;
-  width: auto;
+  width: 14em;
   border-radius: 0.3em;
   box-shadow: rgba(183, 74, 24, 0.4) 5px 5px, rgba(183, 74, 24, 0.3) 10px 10px, rgba(183, 74, 24, 0.2) 15px 15px, rgba(183, 74, 24, 0.1) 20px 20px, rgba(183, 74, 24, 0.05) 25px 25px;
 }
@@ -173,6 +186,26 @@ img.moviePoster:hover {
 img.focus:hover {
   cursor: url("/cursors/pixel.cur"), default;
 } 
+
+/* CUSTOM SELECT */
+select {
+  appearance: none; /* remove default appearance set by the browser */
+  outline: none; /* remove the outline shown on focus */
+  border: 2px solid rgb(19, 19, 21);
+  border-radius: 5px;
+  box-shadow: 5px 8px 5px rgba(0, 0, 0, 0.8);
+
+  padding: 5px 10px;
+  width: auto;
+  height: auto;
+
+  font-size: smaller;
+  text-align: center;
+}
+
+select:focus {
+  outline: 1.5px dashed rgb(183, 74, 24);
+}
 
 /* POINTER CURSOR ANIM */
 @-webkit-keyframes cursor {
@@ -286,6 +319,40 @@ ul.rankingList li {
 .ranking {
   font-size: x-large;
 }
+
+/* GAMES ROOM */
+
+.gamesRoom {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+  overflow: hidden; /* Ensure nothing overflows */
+}
+
+.gamesRoomImg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the image */
+  width: 900px; 
+  height: auto; 
+  z-index: -1; /* Place the image behind other content */
+}
+
+.gamesContainer {
+  background-color: white;
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1; /* Ensure the container is above the background image */
+  text-align: center;
+  width: 700px;
+  height: 400px
+}
+
 
 /* KITCHEN */
 

@@ -37,11 +37,11 @@ export default function Movie() {
 
   if (!movieData) {
     return (
-      <div className='cinema'>
+      <div className='cinema loading'>
         <Link className="link" href="/"> 📺 </Link>
         <Link className="link" href="/rooms/cinema/"> &lt; Cinema </Link>
-        <h1>Loading...</h1>
-        {notFound&&<h3>No such movie or show found in database.</h3>} 
+        {!notFound&&<h1>Loading...</h1>}
+        {notFound&&<h3 id="no">No such movie or show found in database.</h3>} 
         {/* WHY THE LAGGG */}
       </div>
     )
@@ -82,8 +82,7 @@ export default function Movie() {
                       </div>
                     }
                   <ul id='tags'>
-                      {/* {movieData.tags} */}
-                      {movieTags.map((tag)=> <li className='tag' key={tag}>{tag}</li>)}
+                      {movieTags.sort().map((tag)=> <li className='tag' key={tag}>{tag}</li>)}
                   </ul>
               </div>
           </div>

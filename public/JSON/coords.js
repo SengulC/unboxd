@@ -18,6 +18,24 @@ let homeCoords = [
         "coords": [621,389,19]
     },
     {
+        "id": "curry",
+        "title": "/rooms/kitchen",
+        "shape": "circle",
+        "fillColor": "rgba(0,0,0,0)",
+        "strokeColor": "rgba(0,0,0,0)",
+        "lineWidth": 2.5,
+        "coords": [933,335,22]
+    },
+    {
+        "id": "drink",
+        "title": "/rooms/kitchen",
+        "shape": "rect",
+        "fillColor": "rgba(0,0,0,0)",
+        "strokeColor": "rgba(0,0,0,0)",
+        "lineWidth": 2.5,
+        "coords": [513,363,537,403]
+    },
+    {
         "id": "tv",
         "title": "/rooms/cinema",
         "shape": "rect",
@@ -111,13 +129,76 @@ let kitchenCoords = [
     "coords": [700,557,831,676]
   },
   {
-    "id": "cake",
-    "title": "/rooms/kitchen/recipebook?pageTo=2",
+    "id": "jam",
+    "title": "/rooms/kitchen/recipebook/",
+    "shape": "rect",
+    "fillColor": "rgba(0,0,0,0)",
+    "strokeColor": "rgba(0,0,0,0)",
+    "lineWidth": 2.5,
+    "coords": [207,236,233,271]
+  },
+  {
+    "id": "bread",
+    "title": "/rooms/kitchen/recipebook/",
     "shape": "circle",
     "fillColor": "rgba(0,0,0,0)",
     "strokeColor": "rgba(0,0,0,0)",
     "lineWidth": 2.5,
-    "coords": [421,268,20]
+    "coords": [175,272,21]
+  },
+  {
+    "id": "fruits",
+    "title": "/rooms/kitchen/recipebook/",
+    "shape": "circle",
+    "fillColor": "rgba(0,0,0,0)",
+    "strokeColor": "rgba(0,0,0,0)",
+    "lineWidth": 2.5,
+    "coords": [567,269,22]
+  },
+  {
+    "id": "dumplings",
+    "title": "/rooms/kitchen/recipebook/",
+    "shape": "circle",
+    "fillColor": "rgba(0,0,0,0)",
+    "strokeColor": "rgba(0,0,0,0)",
+    "lineWidth": 2.5,
+    "coords": [432,491,20]
+  },
+  {
+    "id": "ovenbake",
+    "title": "/rooms/kitchen/recipebook/",
+    "shape": "circle",
+    "fillColor": "rgba(0,0,0,0)",
+    "strokeColor": "rgba(0,0,0,0)",
+    "lineWidth": 2.5,
+    "coords": [306,366,20]
+  },
+  {
+    "id": "drink",
+    "title": "/rooms/kitchen/recipebook/",
+    "shape": "rect",
+    "fillColor": "rgba(0,0,0,0)",
+    "strokeColor": "rgba(0,0,0,0)",
+    "lineWidth": 2.5,
+    "coords": [429,410,462,449]
+  },
+  {
+    "id": "sauce",
+    "title": "/rooms/kitchen/recipebook/",
+    "shape": "circle",
+    "fillColor": "rgba(0,0,0,0)",
+    "strokeColor": "rgba(0,0,0,0)",
+    "lineWidth": 2.5,
+    "coords": [387,464,18]
+  },
+  {
+    "id": "cake",
+    "title": "/rooms/kitchen/recipebook/",
+    "shape": "circle",
+    "fillColor": "rgba(0,0,0,0)",
+    "strokeColor": "rgba(0,0,0,0)",
+    "lineWidth": 2.5,
+    "coords": [419,270,20]
   }
 ];
 

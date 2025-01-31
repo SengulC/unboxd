@@ -12,7 +12,6 @@ export default function Kitchen() {
   const [kitchenCoords, setKitchenCoords] = useState(coords.kitchenCoords);
 
   useEffect(() => {
-    console.log(coords);
     setKitchenCoords(coords.kitchenCoords);
   }, []); 
     
@@ -37,7 +36,6 @@ export default function Kitchen() {
             (e.title == "/about/me/" || e.title == "/about/credits/" || e.title == "/") ? router.push(e.title) 
             : // else show book
             setShowBook(!showBook);
-            console.log("hi");
           }}
           />
       </div>

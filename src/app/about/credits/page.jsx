@@ -24,6 +24,8 @@ export default function Credits() {
             <li>TV frame by me</li>
             <li>4K static gif for background via <a href="https://cliply.co/clip/static-noise/">Cliply.co</a> </li>
             <li>Custom pixel cursors by <a href="http://www.rw-designer.com/cursor-set/pixel">ten via rw-designer</a></li>
+            <li>Windows XP icon pack by <a href="https://www.deviantart.com/marchmountain/art/Windows-XP-High-Resolution-Icon-Pack-916042853">marchmountain</a></li>
+            <li>Game icons from <a href="https://www.steamgriddb.com/">SteamGridDB</a></li>
         </ul>
         <h2>Fonts</h2>
         <ul>
