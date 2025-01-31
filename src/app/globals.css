@@ -69,6 +69,13 @@ button:hover, select {
   scrollbar-color: rgb(46, 46, 46) rgb(68, 68, 68);
 }
 
+#resPopup {
+  opacity: 0%;
+  background-color: rgb(183, 74, 24);
+  text-align: center;
+  width: 100%; height: auto;
+}
+
 /* FONTS AND HEADERS */
 * {
   font-family: "Sour Gummy", serif;
@@ -160,6 +167,9 @@ p {
 @media (max-width: 768px) {
   .cinemaGrid {
     grid-template-columns: repeat(2, 1fr); /* 2 columns on smaller screens */
+  }
+  #resPopup {
+    opacity: 100%;
   }
 }
 
@@ -333,8 +343,7 @@ ul.rankingList li {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); /* Center the image */
-  width: 900px; 
-  height: auto; 
+  width: 900px; height: auto; 
   z-index: -1; 
 }
 

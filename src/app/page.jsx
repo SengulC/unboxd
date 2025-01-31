@@ -18,6 +18,7 @@ export default function Home () {
 
   return (
     <div className="home">
+      <div id="resPopup">Warning101: Best enjoyed on larger screens!</div>
         <ImageMapper
           name={"home-map"}
           areas={homeCoords}
