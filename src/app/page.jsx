@@ -21,7 +21,7 @@ export default function Home () {
         <ImageMapper
           name={"home-map"}
           areas={homeCoords}
-          src={'background/homepage.png'}
+          src={'/background/homepage.png'}
           active={true}
           responsive={true}
           parentWidth={900}
