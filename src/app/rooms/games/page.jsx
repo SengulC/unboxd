@@ -1,6 +1,7 @@
 "use client"
 import React from 'react'
 import Image from 'next/image';
+import WindowsBtn from './WindowsBtn';
 
 export default function Games() {
   return (
@@ -16,7 +17,13 @@ export default function Games() {
       <div className="gamesContainer">
         <button onClick={(e) => alert("Hi")}>btn</button>
         <h1>Welcome</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni fugiat dolorem illum ducimus, voluptate error corporis unde velit reiciendis quidem, dolore nisi deleniti quo, rerum soluta rem omnis est. Cupiditate!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
+        <div className='windowsMenu'>
+          <WindowsBtn redirect={"/"} img={"/games/home.png"} title={"Homepage"}/>
+          <WindowsBtn redirect={"/about/howto"} img={"/games/info.png"} title={"System Utilities"}/>
+          <WindowsBtn redirect={"/about/me"} img={"/games/text.png"} title={"AboutMe.txt"}/>
+          <WindowsBtn redirect={"/"} img={"/games/controller.png"} title={"RDR2.exe"}/>
+        </div>
       </div>
     </div>
   );

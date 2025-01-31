@@ -336,6 +336,7 @@ ul.rankingList li {
   height: 100vh; /* Full viewport height */
   width: 100vw; /* Full viewport width */
   overflow: hidden; /* Ensure nothing overflows */
+  font-size: smaller;
 }
 
 .gamesRoomImg {
@@ -348,16 +349,49 @@ ul.rankingList li {
 }
 
 .gamesContainer {
-  background-color: white;
+  > h1, p, button {font-family: Tahoma, "Trebuchet MS", sans-serif};
+  position: relative;
+  /* background-color: rgba(255, 74, 74, 0.356); */
   padding: 2em;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
   z-index: 1;
   text-align: center;
-  width: 700px;
-  height: 400px
+  width: 760px;
+  height: 430px;
 }
 
+.windowsMenu {
+  height: 3em; width: auto;
+  position: absolute; bottom:0; left: 0; right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 11em; margin-bottom: 0.1em;
+}
+
+.windowsBtn {
+  display: flex;
+  background: rgb(84,162,250);
+  background: radial-gradient(circle, rgba(84,162,250,1) 0%, rgba(50,96,148,0.4990589985994398) 100%);
+  border: 1px solid  rgb(44, 83, 128);
+  box-shadow: #404040;
+  width: 10em;
+  margin-left: 0.5em;
+  border-radius: 10px;
+  text-align: center;
+  padding: 0em 1em;
+  > button {
+    background-color: transparent;
+    height: 3em;
+    color: white;
+    border: transparent;
+  }
+}
+
+.XPicon {
+  width: 2.5em; height: 2.5em;
+}
 
 /* KITCHEN */
 div.kitchen {
