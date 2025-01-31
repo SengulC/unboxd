@@ -94,7 +94,7 @@ let homeCoords = [
 let kitchenCoords = [
   {
     "id": "homeButton",
-    "title": "/",
+    "title": "",
     "shape": "rect",
     "fillColor": "rgba(0,0,0,0)",
     "strokeColor": "rgba(0,0,0,0)",
