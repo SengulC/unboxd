@@ -86,9 +86,16 @@ h3 {
   font-size: 2em;
 }
 
+.link:hover {
+  background-color: #b18872;
+  padding: 1px;
+}
+
 .link {
   font-size: x-large;
   color: #953B11;
+  font-weight: bolder;
+  background-color: #b1887214;
   cursor: url("/cursors/click.gif") 20 25, pointer;
   animation: cursor 400ms infinite;
 }
@@ -110,9 +117,9 @@ p {
 /* CINEMA */
 
 .cinema {
-  background-image: url("/background/static.gif");
-  background-color: rgba(0, 0, 0, 0.7);
-  background-blend-mode: darken;
+  background-image: url("/background/static2.gif");
+  background-color: rgba(0, 0, 0, 0.4);
+  /* background-blend-mode: darken; */
   z-index: -2;
   color: white;
   padding: 3em;
@@ -235,9 +242,9 @@ select:focus {
 /* ABOUT */
 .about {
   background-color: black;
-  background-image: url("/background/static.gif");
+  background-image: url("/background/static2.gif");
   background-color: rgba(0, 0, 0, 0.7);
-  background-blend-mode: darken;
+  /* background-blend-mode: darken; */
   z-index: -2;
   color: white;
   padding: 3em;
