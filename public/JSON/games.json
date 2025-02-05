@@ -1,6 +1,7 @@
 {   
     "Detroit: Become Human": {
         "title": "Detroit: Become Human",
+        "id": "dbh",
         "company": "Quantic Dream",
         "stars": 5,
         "synopsis": "'Detroit: Become Human' puts the destiny of both mankind and androids in your hands, taking you to a near future where machines have become more intelligent than humans. Every choice you make affects the outcome of the game, with one of the most intricately branching narratives ever created.",
@@ -9,6 +10,7 @@
     },
     "Red Dead Redemption 2": {
         "title": "Red Dead Redemption 2",
+        "id": "rdr2",
         "company": "",
         "stars": 5,
         "synopsis": "",
@@ -17,6 +19,7 @@
     },
     "Life is Strange": {
         "title": "Life is Strange",
+        "id": "lis",
         "company": "",
         "stars": 5,
         "synopsis": "",
@@ -25,6 +28,7 @@
     },
     "NBA 2K13": {
         "title": "NBA 2K13",
+        "id": "nba13",
         "company": "",
         "stars": 5,
         "synopsis": "",
@@ -33,6 +37,7 @@
     },
     "The Last of Us: Part 1": {
         "title": "The Last of Us: Part 1",
+        "id": "tlou1",
         "company": "",
         "stars": 5,
         "synopsis": "",
@@ -41,6 +46,7 @@
     },
     "Bully: Scholarship Edition": {
         "title": "Bully: Scholarship Edition",
+        "id": "bully",
         "company": "",
         "stars": 5,
         "synopsis": "",
@@ -49,6 +55,7 @@
     },
     "Grand Theft Auto IV": {
         "title": "Grand Theft Auto IV",
+        "id": "gtaiv",
         "company": "",
         "stars": 5,
         "synopsis": "",
@@ -57,6 +64,7 @@
     },
     "Grand Theft Auto V": {
         "title": "Grand Theft Auto V",
+        "id": "gtav",
         "company": "",
         "stars": 5,
         "synopsis": "",
@@ -65,6 +73,7 @@
     },
     "The Walking Dead: The Telltale": {
         "title": "The Walking Dead: The Telltale",
+        "id": "twd",
         "company": "",
         "stars": 5,
         "synopsis": "",

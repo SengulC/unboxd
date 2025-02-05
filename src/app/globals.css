@@ -373,6 +373,19 @@ ul.rankingList li {
   row-gap: 3em;
 }
 
+.gamesGrid > img:hover {
+  cursor: url("/cursors/click2.cur"), pointer;
+  animation: cursor 400ms infinite;
+}
+
+.gamePopUp {
+  background-color: white;
+  border-radius: 10px;
+  width: 55em; height: 30em;
+  position: absolute;
+  z-index: 10;
+}
+
 .windowsMenu {
   height: 3em; width: auto;
   position: absolute; bottom:0; left: 0; right: 0;
