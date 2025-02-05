@@ -1,9 +1,19 @@
 "use client"
-import React from 'react'
 import Image from 'next/image';
 import WindowsBtn from './WindowsBtn';
+import React, { useEffect, useState } from 'react';
+import gamesData from "/public/JSON/games.json";
 
 export default function Games() {
+  const [gameIcons, setGameIcons] = useState([]);
+
+  useEffect(() => {
+    const arr = Object.values(gamesData).map(data => (
+      <Image key={data.title} src={data.image} alt={`Icon of game: ${data.title}`} width={256} height={256}/>
+    ));
+    setGameIcons(arr); 
+  }, [])
+
   return (
     <div className="gamesRoom">
       <Image
@@ -15,9 +25,9 @@ export default function Games() {
         alt={"Image of a TV with the nostalgic Windows XP background."}
       />
       <div className="gamesContainer">
-        <button onClick={(e) => alert("Hi")}>btn</button>
-        <h1>Welcome</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
+        <div className='gamesGrid'>
+          {gameIcons}
+        </div>
         <div className='windowsMenu'>
           <WindowsBtn redirect={"/"} img={"/games/home.png"} title={"Homepage"}/>
           <WindowsBtn redirect={"/about/howto"} img={"/games/info.png"} title={"System Utilities"}/>

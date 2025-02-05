@@ -361,6 +361,18 @@ ul.rankingList li {
   height: 430px;
 }
 
+.gamesGrid {
+  > img {
+    width: 6em; height: auto;
+    background-color: transparent;
+    filter: drop-shadow(5px 5px 5px #000000);
+  }
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 1em;
+  row-gap: 3em;
+}
+
 .windowsMenu {
   height: 3em; width: auto;
   position: absolute; bottom:0; left: 0; right: 0;
@@ -375,7 +387,6 @@ ul.rankingList li {
   background: rgb(84,162,250);
   background: radial-gradient(circle, rgba(84,162,250,1) 0%, rgba(50,96,148,0.4990589985994398) 100%);
   border: 1px solid  rgb(44, 83, 128);
-  box-shadow: #404040;
   width: 10em;
   margin-left: 0.5em;
   border-radius: 10px;

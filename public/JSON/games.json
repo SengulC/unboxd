@@ -1,0 +1,74 @@
+{   
+    "Detroit: Become Human": {
+        "title": "Detroit: Become Human",
+        "company": "Quantic Dream",
+        "stars": 5,
+        "synopsis": "'Detroit: Become Human' puts the destiny of both mankind and androids in your hands, taking you to a near future where machines have become more intelligent than humans. Every choice you make affects the outcome of the game, with one of the most intricately branching narratives ever created.",
+        "review": "",
+        "image": "/games/detroit.ico"
+    },
+    "Red Dead Redemption 2": {
+        "title": "Red Dead Redemption 2",
+        "company": "",
+        "stars": 5,
+        "synopsis": "",
+        "review": "",
+        "image": "/games/rdr2.png"
+    },
+    "Life is Strange": {
+        "title": "Life is Strange",
+        "company": "",
+        "stars": 5,
+        "synopsis": "",
+        "review": ".",
+        "image": "/games/lis.png"
+    },
+    "NBA 2K13": {
+        "title": "NBA 2K13",
+        "company": "",
+        "stars": 5,
+        "synopsis": "",
+        "review": ".",
+        "image": "/games/nba.ico"
+    },
+    "The Last of Us: Part 1": {
+        "title": "The Last of Us: Part 1",
+        "company": "",
+        "stars": 5,
+        "synopsis": "",
+        "review": ".",
+        "image": "/games/tlou.ico"
+    },
+    "Bully: Scholarship Edition": {
+        "title": "Bully: Scholarship Edition",
+        "company": "",
+        "stars": 5,
+        "synopsis": "",
+        "review": ".",
+        "image": "/games/bully.ico"
+    },
+    "Grand Theft Auto IV": {
+        "title": "Grand Theft Auto IV",
+        "company": "",
+        "stars": 5,
+        "synopsis": "",
+        "review": ".",
+        "image": "/games/gtaiv.ico"
+    },
+    "Grand Theft Auto V": {
+        "title": "Grand Theft Auto V",
+        "company": "",
+        "stars": 5,
+        "synopsis": "",
+        "review": ".",
+        "image": "/games/gtav.ico"
+    },
+    "The Walking Dead: The Telltale": {
+        "title": "The Walking Dead: The Telltale",
+        "company": "",
+        "stars": 5,
+        "synopsis": "",
+        "review": ".",
+        "image": "/games/twd.png"
+    }
+}
