@@ -54,7 +54,10 @@ export default function Games() {
           <WindowsBtn redirect={"/"} img={"/games/home.png"} title={"Homepage"}/>
           <WindowsBtn redirect={"/about/howto"} img={"/games/info.png"} title={"System Utilities"}/>
           <WindowsBtn redirect={"/about/me"} img={"/games/text.png"} title={"AboutMe.txt"}/>
-          <WindowsBtn redirect={"/"} img={"/games/controller.png"} title={"RDR2.exe"}/>
+          <div className='windowsBtn'>
+            <Image className={"XPicon"} src={"/games/controller.png"} alt={`Retro Windows XP icon for a controller`} width={500} height={500}></Image>
+            <button onClick={()=>{setShow(true); setCurrGame("Red Dead Redemption 2")}}>RDR2.exe</button>
+          </div>
         </div>
       </div>
     </div>
