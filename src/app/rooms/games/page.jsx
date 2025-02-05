@@ -34,9 +34,17 @@ export default function Games() {
       />
       <div className="gamesContainer">
         {show && 
-          <div className='gamePopUp'>
-          <button onClick={_=>{setShow(false)}}>X</button>
-          <p>{`HELLO i am the game: ${currGame}`}</p>
+          <div className='gamePopUpWindow'>
+              <button 
+                onClick={_=>{setShow(false); router.push("/rooms/games")}}
+              >X</button>
+              <div id="windowIcon">
+                <img src={gamesData[currGame].image}/>
+                <h2>{currGame}</h2>
+              </div>
+            <div className='gamePopUp'>
+              <p>{gamesData[currGame].synopsis}</p>
+            </div>
           </div>
         }
         <div className='gamesGrid'>

@@ -378,12 +378,53 @@ ul.rankingList li {
   animation: cursor 400ms infinite;
 }
 
-.gamePopUp {
-  background-color: white;
+.gamePopUp, .gamePopUpWindow {
   border-radius: 10px;
-  width: 55em; height: 30em;
+  width: 53em; height: 25em;
   position: absolute;
   z-index: 10;
+  padding:1em;
+}
+
+.gamePopUp {
+  overflow-y: scroll;
+  margin-top: 0em;
+  scrollbar-width: thin;
+  width: 52em;
+  scrollbar-color: transparent #CACAC8;
+  padding-top: 0em;
+  > p {
+    font-size: large;
+  }
+}
+
+
+.gamePopUpWindow {
+  margin-top: -2em;
+  border: 0.5em solid blue;
+  border-top: 3em solid blue;
+  background-color: white;
+  > button {
+    float: right;
+    margin-top: -3.8em;
+    padding: 0.5em;
+    background-color: red;
+    color: white;
+    font-weight: 900; 
+    border: 0.15em solid white;
+    width: 2.5em; height: 2.5em;
+  }
+  > div#windowIcon {
+    margin-top: -6em;
+    float: left;
+    display: inline-flex;
+    align-items: center;
+    color: white;
+    > img {
+      width: 2.5em; height: 2.5em;
+      padding-right: 1em;
+    }
+  }
 }
 
 .windowsMenu {
