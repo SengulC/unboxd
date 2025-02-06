@@ -144,8 +144,19 @@ p {
 }
 
 .filter {
-  /* float: right; */
   margin: 2em;
+}
+
+.quoteBox {
+  margin-bottom: 1em;
+}
+
+.quote {
+  font-style: italic;
+  font-size: larger;
+  color:#7a57ae;
+  font-weight: bolder;
+  background: linear-gradient(to top, #8c72b13a 10%, transparent 60%);
 }
 
 @media (max-width: 768px) {
@@ -232,6 +243,7 @@ select:focus {
   font-style: italic;
   font-weight: 800;
   color:#953B11;
+  margin-top: -1em;
 }
 
 .tag {

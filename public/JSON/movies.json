@@ -46,6 +46,7 @@
         "review": "Beautiful cinematography. Insanely immersive, one of those movies that you need to sit with and listen to the soundtrack for a day or two.... or a week or two... I think it's almost been a month.  Just rewatched it... one of the few movies I genuinely think I could sit and write pages and pages of dicussion and analysis on.",
         "image": "/cinema/isawthetvglow.jpg",
         "watchCount": 2,
+        "quote": "What if she was right? What if I was someone else? Someone beautiful and powerful? Buried alive and suffocating to death on the other side of a television screen?",
         "tags": ["film", "insanely-immersive", "favorites", "needle-drop", "cinema!tography", "all"]
     },
     "Avatar: The Last Airbender": {
@@ -135,11 +136,21 @@
     },
     "Paprika": {
         "title": "Paprika",
-        "director": "Janicza Bravo, Jeremy O. Harris",
+        "director": "Satoshi Kon, Yasutaka Tsutsui",
         "stars": 4.5,
         "synopsis": "Dr. Atsuko Chiba works as a scientist by day and, under the code name 'Paprika', is a dream detective at night. Atsuko and her colleagues are working on a device called the DC Mini, which is intended to help psychiatric patients, but in the wrong hands it could destroy people's minds. When a prototype is stolen, Atsuko/Paprika springs into action to recover it before damage is done.",
         "review": "Wow. I understand now why Sato is regarded as one of the Directors ever. And Nolan shouldn't have covered these nachos with foil if he was just gonna go ahead and reheat them in the microwave...  Alongside having amazing cinematography and some of the best animation, the score was one of my favorite parts of the movie! The sound engineering was also done wonderfully; resulting in an amazing watch - never dull!! Looking forward to rewatching with all I now know.",
         "image": "/cinema/paprika.jpg",
+        "quote": "It's truth that came from fiction. Always remember that",
         "tags": ["film", "animation", "cinema!tography", "world-building", "all"]
+    },
+    "Perfect Blue": {
+        "title": "Perfect Blue",
+        "director": "Satoshi Kon",
+        "stars": 5,
+        "synopsis": "A pop singer gives up her career to become an actress, but she slowly goes insane when she starts being stalked by an obsessed fan and what seems to be a ghost of her past.",
+        "review": "Control and Agency are two things commonly mistaken to be the same. I, cringely breakdown these terms in my bachelor's thesis in the context of AI, but these are infinitely more interesting and real concepts when discussing people; their perceptions of themselves, resulting in their manifestations of their reality (their agency) and the parallel control that society and others have on their freedom of expression, and as a result - their being. Satoshi Kon does such a wonderful job exploring a young woman's self expression and identity - and he always manages to blend this with fiction so so well. 'It's truth that came from fiction. Always remember that'. The film's sound engineering and soundtrack do NOT disappoint either. And what's ironic is 15 year old me would have been a huge CHAM! fan, shoutout @CHAM!FAM!",
+        "image": "/cinema/perfectblue.jpeg",
+        "tags": ["film", "animation", "cinema!tography", "insanely-immersive", "favorites", "all"]
     }
 }
