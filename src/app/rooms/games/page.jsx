@@ -40,19 +40,17 @@ export default function Games() {
       <div className="gamesContainer">
         {show && 
           <div className='gamePopUpWindow'>
+              {/* <div id="editMenu"></div> */}
               <div className='popupButtons'>
                 <div id="closeBtn" onClick={_=>{setShow(false); router.push("/rooms/games")}}>_</div>
                 <div id="closeBtn" onClick={_=>{setShow(false); router.push("/rooms/games")}}>X</div>
               </div>
-              {/* <button 
-                onClick={_=>{setShow(false); router.push("/rooms/games")}}
-              >X</button> */}
               <div id="windowIcon">
                 <img src={gamesData[currGame].image}/>
                 <h2>{currGame}</h2>
               </div>
             <div className='gamePopUp'>
-              <p>{gamesData[currGame].synopsis}</p>
+              <p>{gamesData[currGame].synopsis}{gamesData[currGame].synopsis}{gamesData[currGame].synopsis}{gamesData[currGame].synopsis}</p>
             </div>
           </div>
         }

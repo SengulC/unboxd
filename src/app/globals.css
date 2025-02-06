@@ -389,17 +389,21 @@ ul.rankingList li {
 
 .gamePopUp, .gamePopUpWindow {
   border-radius: 10px;
-  width: 53em; height: 25em;
+  width: 53em; height: 27em;
   position: absolute;
   z-index: 10;
   padding:1em;
+  padding-top: 0em;
 }
 
 .gamePopUp {
+  border-top: #ECE9D6 solid 2.2em;
+  border-radius: 0px;
+  margin-left: -1em;
   overflow-y: scroll;
   margin-top: 0em;
   scrollbar-width: thin;
-  width: 52em;
+  width: 53em; height: 25em;
   scrollbar-color: transparent #CACAC8;
   padding-top: 0em;
   > p {
@@ -409,12 +413,12 @@ ul.rankingList li {
 
 .popupButtons {
   float: right;
-  margin-top: -3.8em;
+  margin-top: -2.8em;
   display: inline-flex;
 }
 
 .gamePopUpWindow {
-  margin-top: -2em;
+  margin-top: -2em; 
   border: 0.5em solid blue;
   border-top: 3em solid blue;
   background-color: white;
@@ -429,7 +433,7 @@ ul.rankingList li {
     animation: cursor 400ms infinite;
   }
   > div#windowIcon {
-    margin-top: -6em;
+    margin-top: -5em;
     float: left;
     display: inline-flex;
     align-items: center;
@@ -439,6 +443,12 @@ ul.rankingList li {
       padding-right: 1em;
     }
   }
+}
+
+#editMenu {
+  width: 52em;
+  height: 1em;
+  background-color: rgb(178, 152, 104);
 }
 
 .windowsMenu {
