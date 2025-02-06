@@ -225,7 +225,7 @@ select:focus {
 /* POINTER CURSOR ANIM */
 @keyframes cursor {
   0% {cursor: url("/cursors/click.gif"), pointer;}
-  100% {cursor: url("/cursors/click2.cur"), pointer;}
+  100% {cursor: url("/cursors/click2.cur") 0 0, pointer;}
 }
 
 /* MOVIEPAGE */
@@ -362,10 +362,16 @@ ul.rankingList li {
 }
 
 .gamesGrid {
-  > img {
+  > div > img {
     width: 6em; height: auto;
     background-color: transparent;
     filter: drop-shadow(5px 5px 5px #000000);
+  }
+  > div > p {
+    font-size: small;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    cursor: text;
   }
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -373,9 +379,12 @@ ul.rankingList li {
   row-gap: 3em;
 }
 
-.gamesGrid > img:hover {
-  cursor: url("/cursors/click2.cur"), pointer;
+.gamesGrid > div {
+  cursor: url("/cursors/click2.cur") 0 0, pointer;
   animation: cursor 400ms infinite;
+  > p:hover {
+    background-color: #2055A1;
+  }
 }
 
 .gamePopUp, .gamePopUpWindow {
@@ -398,21 +407,26 @@ ul.rankingList li {
   }
 }
 
+.popupButtons {
+  float: right;
+  margin-top: -3.8em;
+  display: inline-flex;
+}
 
 .gamePopUpWindow {
   margin-top: -2em;
   border: 0.5em solid blue;
   border-top: 3em solid blue;
   background-color: white;
-  > button {
-    float: right;
-    margin-top: -3.8em;
-    padding: 0.5em;
+  > div.popupButtons > div {
+    margin-left: 0.3em;
     background-color: red;
     color: white;
-    font-weight: 900; 
-    border: 0.15em solid white;
-    width: 2.5em; height: 2.5em;
+    font-weight: 900; font-size: medium;
+    border: 0.2em solid white;
+    width: 1.8em; height: 1.8em;
+    cursor: url("/cursors/click2.cur") 0 0, pointer;
+    animation: cursor 400ms infinite;
   }
   > div#windowIcon {
     margin-top: -6em;
@@ -573,7 +587,7 @@ img.pageImg {
 }
 
 .img-mapper-area { 
-  cursor: url("/cursors/click2.cur"), pointer;
+  cursor: url("/cursors/click2.cur") 0 0, pointer;
   animation: cursor 400ms infinite;
 }
 

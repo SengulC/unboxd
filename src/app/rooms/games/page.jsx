@@ -8,16 +8,21 @@ import { useRouter } from 'next/navigation';
 export default function Games() {
   const [gameIcons, setGameIcons] = useState([]);
   const [show, setShow] = useState(false);
-  const [currGame, setCurrGame] = useState("");
+  const [currGame, setCurrGame] = useState("Red Dead Redemption 2");
   const router = useRouter();
 
   useEffect(() => {
     const arr = Object.values(gamesData).map(data => (
+      <div
+        key={data.title}
+        onClick={_=>{setShow(true); setCurrGame(data.title); router.push(`/rooms/games?game=${data.id}`)}}
+      >
       <Image 
         key={data.title} src={data.image} 
         alt={`Icon of game: ${data.title}`} width={256} height={256}
-        onClick={_=>{setShow(true); setCurrGame(data.title); router.push(`/rooms/games?game=${data.id}`)}}
       />
+      <p>{data.title}</p>
+      </div>
     ));
     setGameIcons(arr); 
   }, [])
@@ -35,9 +40,13 @@ export default function Games() {
       <div className="gamesContainer">
         {show && 
           <div className='gamePopUpWindow'>
-              <button 
+              <div className='popupButtons'>
+                <div id="closeBtn" onClick={_=>{setShow(false); router.push("/rooms/games")}}>_</div>
+                <div id="closeBtn" onClick={_=>{setShow(false); router.push("/rooms/games")}}>X</div>
+              </div>
+              {/* <button 
                 onClick={_=>{setShow(false); router.push("/rooms/games")}}
-              >X</button>
+              >X</button> */}
               <div id="windowIcon">
                 <img src={gamesData[currGame].image}/>
                 <h2>{currGame}</h2>
@@ -56,7 +65,7 @@ export default function Games() {
           <WindowsBtn redirect={"/about/me"} img={"/games/text.png"} title={"AboutMe.txt"}/>
           <div className='windowsBtn'>
             <Image className={"XPicon"} src={"/games/controller.png"} alt={`Retro Windows XP icon for a controller`} width={500} height={500}></Image>
-            <button onClick={()=>{setShow(true); setCurrGame("Red Dead Redemption 2")}}>RDR2.exe</button>
+            <button onClick={()=>{setShow(true);}}>{`${gamesData[currGame].id}.exe`}</button>
           </div>
         </div>
       </div>
