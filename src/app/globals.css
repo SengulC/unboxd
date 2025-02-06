@@ -275,6 +275,8 @@ span.emphasis {
 .commentSecondary {
   font-style: italic;
   color: #b18872;
+  margin-bottom: 1em;
+  margin-top: -0.5em;
 }
 
 h2 > span.comment {
