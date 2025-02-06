@@ -40,7 +40,6 @@ export default function Games() {
       <div className="gamesContainer">
         {show && 
           <div className='gamePopUpWindow'>
-              {/* <div id="editMenu"></div> */}
               <div className='popupButtons'>
                 <div id="closeBtn" onClick={_=>{setShow(false); router.push("/rooms/games")}}>_</div>
                 <div id="closeBtn" onClick={_=>{setShow(false); router.push("/rooms/games")}}>X</div>
@@ -50,7 +49,9 @@ export default function Games() {
                 <h2>{currGame}</h2>
               </div>
             <div className='gamePopUp'>
-              <p>{gamesData[currGame].synopsis}{gamesData[currGame].synopsis}{gamesData[currGame].synopsis}{gamesData[currGame].synopsis}</p>
+              <Image className='gamePoster' src={"/games/rdr2poster.jpg"} alt={`RDR2`} width={600} height={900}/>
+              <p> {gamesData[currGame].synopsis}{gamesData[currGame].synopsis}{gamesData[currGame].synopsis}{gamesData[currGame].synopsis}</p>
+              <Image className='gamePoster' src={"/games/rdr2poster2.png"} alt={`RDR2`} width={600} height={900}/>
             </div>
           </div>
         }
