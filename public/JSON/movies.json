@@ -142,7 +142,7 @@
         "director": "Satoshi Kon, Yasutaka Tsutsui",
         "stars": 4.5,
         "synopsis": "Dr. Atsuko Chiba works as a scientist by day and, under the code name 'Paprika', is a dream detective at night. Atsuko and her colleagues are working on a device called the DC Mini, which is intended to help psychiatric patients, but in the wrong hands it could destroy people's minds. When a prototype is stolen, Atsuko/Paprika springs into action to recover it before damage is done.",
-        "review": "Wow. I understand now why Sato is regarded as one of the Directors ever. And Nolan shouldn't have covered these nachos with foil if he was just gonna go ahead and reheat them in the microwave...  Alongside having amazing cinematography and some of the best animation, the score was one of my favorite parts of the movie! The sound engineering was also done wonderfully; resulting in an amazing watch - never dull!! Looking forward to rewatching with all I now know. One based youtuber comments on how Kon poses questions on: 'The nature of humanity and the sacred nature of dreams, and how we abuse media to try and replicate dreams to escape our reality.'",
+        "review": "Wow. I understand now why Sato is regarded as one of the Directors ever. And Nolan shouldn't have covered these nachos with foil if he was just gonna go ahead and reheat them in the microwave...  Alongside having amazing cinematography and some of the best animation, the score was one of my favorite parts of the movie! The sound engineering was also done wonderfully; resulting in an amazing watch - never dull!! Looking forward to rewatching with all I now know. One based Youtuber comments on how Kon poses questions on: 'The nature of humanity and the sacred nature of dreams, and how we abuse media to try and replicate dreams to escape our reality.'",
         "image": "/cinema/paprika.jpg",
         "quote": "It's truth that came from fiction. Always remember that",
         "tags": ["film", "animation", "cinema!tography", "world-building", "all"]
@@ -155,5 +155,15 @@
         "review": "Control and Agency are two things commonly mistaken to be the same. I, cringely breakdown these terms in my bachelor's thesis in the context of AI, but these are infinitely more interesting and real concepts when discussing people; their perceptions of themselves, resulting in their manifestations of their reality (their agency) and the parallel control that society and others have on their freedom of expression, and as a result - their being. Satoshi Kon does such a wonderful job exploring a young woman's self expression and identity - and he always manages to blend this with fiction so so well. 'It's truth that came from fiction. Always remember that'. The film's sound engineering and soundtrack do NOT disappoint either. And what's ironic is 15 year old me would have been a huge CHAM! fan, shoutout @CHAM!FAM!",
         "image": "/cinema/perfectblue.jpeg",
         "tags": ["film", "animation", "cinema!tography", "insanely-immersive", "favorites", "all"]
+    },
+    "Tokyo Godfathers": {
+        "title": "Tokyo Godfathers",
+        "director": "Satoshi Kon",
+        "stars": 4,
+        "synopsis": "Middle-aged alcoholic Gin, teenage runaway Miyuki and former drag queen Hana are a trio of homeless people surviving as a makeshift family on the streets of Tokyo. While rummaging in the trash for food on Christmas Eve, they stumble upon an abandoned newborn baby in a trash bin. With only a handful of clues to the baby's identity, the three misfits search the streets of Tokyo for help in returning the baby to its parents.",
+        "review": "The needed festive, comedic, found-family action flick from Satoshi Kon. I miss this man's work and what could've been although I've only been familiar with his game for 3 whole days. To paraphrase yet another based Youtuber 'reminds you of what is most important on the coldest day of the year - family, whatever form that may come in'.",
+        "image": "/cinema/tokyogodfathers.jpg",
+        "quote": "Hey, wait a minute. We're homeless bums, not action-movie heroes",
+        "tags": ["film", "animation", "character-development", "comedy", "all"]
     }
 }
