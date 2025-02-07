@@ -50,7 +50,7 @@ export default function Games() {
               </div>
             <div className='gamePopUp'>
               <Image className='gamePoster' src={"/games/rdr2poster.jpg"} alt={`RDR2`} width={600} height={900}/>
-              <p> {gamesData[currGame].synopsis}{gamesData[currGame].synopsis}{gamesData[currGame].synopsis}{gamesData[currGame].synopsis}</p>
+              <p> {gamesData[currGame].synopsis}</p>
               <Image className='gamePoster' src={"/games/rdr2poster2.png"} alt={`RDR2`} width={600} height={900}/>
             </div>
           </div>
